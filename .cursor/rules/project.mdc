@@ -1,0 +1,40 @@
+---
+description: Project conventions for political-risk-finder-pf
+alwaysApply: true
+---
+
+# Project: political-risk-finder-PF (Renewable Project Finance Risk Tool)
+
+## What this is
+A web tool for a project-finance audience at a lending bank. A user picks a US
+state and a technology (wind / solar / battery), and the tool returns a tiered
+political/regulatory risk assessment — federal, state, and local — differentiated
+by technology, mapped to where each risk hits the financing (tax equity, debt
+sizing, construction timing, merchant revenue). This is a portfolio/demo piece
+to show initiative; prioritize readable, conventional, DEFENSIBLE code.
+
+## Stack (do not change without asking)
+- Framework: Next.js (App Router) + TypeScript
+- Styling: Tailwind CSS
+- Data: typed JSON / TS files in the repo (NO database — 50 states is small)
+- LLM: Anthropic API (Claude) server-side, for PROSE NARRATIVE ONLY
+- Package management: pnpm
+
+## The cardinal rule (this is the whole point of the tool)
+- Risk SCORES must be DETERMINISTIC — computed by a transparent scoring
+  function over structured data fields. The LLM NEVER invents a score, a law,
+  a date, or a number. The LLM only writes prose explaining data it is given.
+- Every risk factor carries a `lastVerified` date and a `confidence` flag
+  (verified / auto / stale). The UI must surface these. Honesty about data
+  currency is a FEATURE, not a disclaimer to hide.
+
+## Data sources
+- Public sources only: legislator data from the `congress-legislators` open
+  dataset; policy facts hand-curated from public reporting / primary sources.
+- Do NOT wire in any NORD/LB internal data, and do NOT scrape paywalled sources.
+
+## Hard rules
+- Never hardcode the Anthropic API key. It lives in .env.local (gitignored).
+- Build incrementally. Do not scaffold the whole app in one step.
+- After each phase, the app must still run. Note how to run it.
+- When unsure about a requirement, ask before assuming.

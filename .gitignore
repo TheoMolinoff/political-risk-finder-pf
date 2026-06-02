@@ -1,0 +1,20 @@
+# Secrets and environment
+.env
+.env.local
+*.env
+
+# Node / Next.js
+node_modules/
+.next/
+.pnpm-store/
+out/
+
+# Editor / OS
+.DS_Store
+.vscode/
+*.swp
+
+# Logs and build artifacts
+*.log
+dist/
+build/
