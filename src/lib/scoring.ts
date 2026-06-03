@@ -1,6 +1,7 @@
 import type {
   AssessmentResult,
   LevelThresholds,
+  Mitigant,
   RiskFactor,
   RiskLevel,
   StateRecord,
@@ -42,15 +43,20 @@ function scoreToLevel(score: number, thresholds: LevelThresholds): RiskLevel {
 }
 
 function scoreTier(factors: RiskFactor[], tech: Technology): number {
-  if (factors.length === 0) return 0;
+  const bindingCount = factors.filter((f) => f.severity[tech] > 0).length;
+
+  // Denominator uses only binding factors (severity > 0). A resolved/non-binding
+  // factor (severity 0) contributes nothing to the numerator, so including it in
+  // the denominator would dilute the score — making a tier look safer simply
+  // because a resolved risk was documented. Documenting resolved risks must be
+  // costless to the score. This is a targeted fix; the broader sensitivity to
+  // total factor count (a sparsely-documented state can still outscore a
+  // well-documented one) remains a known limitation flagged for Phase 2.
+  if (bindingCount === 0) return 0;
 
   const sum = factors.reduce((acc, f) => acc + f.severity[tech], 0);
-  const maxPossible = factors.length * 3;
+  const maxPossible = bindingCount * 3;
 
-  // KNOWN LIMITATION: tier score = mean severity, so a sparsely-documented state
-  // can score higher than a well-documented one with many minor factors.
-  // Revisit in Phase 2 — candidate: blend mean with a density term or use
-  // highest-severity-plus-count to reduce the sparse-data bias.
   return (sum / maxPossible) * 100;
 }
 
@@ -70,8 +76,22 @@ export function assess(
     const factors = state.factors.filter(
       (f) => f.tier === tier && f.technologies.includes(tech)
     );
-    const score = scoreTier(factors, tech);
-    return { tier, score, factors };
+    const rawRiskScore = scoreTier(factors, tech);
+
+    // Mitigants are tier-scoped: a state policy (e.g. a renewable mandate) reduces
+    // only the state tier score — it cannot offset federal or local risks. Reductions
+    // are summed and the final score is floored at 0; a strong mitigant cannot produce
+    // a negative score.
+    const applicableMitigants: Mitigant[] = (state.mitigants ?? []).filter(
+      (m) => m.tier === tier && m.technologies.includes(tech)
+    );
+    const totalReduction = applicableMitigants.reduce(
+      (acc, m) => acc + (m.reduction[tech] ?? 0),
+      0
+    );
+    const score = Math.max(0, rawRiskScore - totalReduction);
+
+    return { tier, rawRiskScore, score, factors, mitigants: applicableMitigants };
   });
 
   const overallScore = tiers.reduce(

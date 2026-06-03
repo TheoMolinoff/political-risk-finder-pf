@@ -28,11 +28,40 @@ export interface RiskFactor {
   confidence: Confidence;
 }
 
+/**
+ * A protective factor that reduces a tier's risk score.
+ * Mitigants are NOT negative severity values — they are a separate concept.
+ * A state-tier mitigant (e.g. a renewable mandate) reduces the state score only;
+ * it does not affect federal or local scores.
+ */
+export interface Mitigant {
+  id: string;
+  tier: Tier;
+  /** Technologies this mitigant is relevant to. */
+  technologies: Technology[];
+  /**
+   * Score-point reduction to apply to this tier's risk score, keyed by technology.
+   * Floored at 0 — a mitigant cannot push a tier below zero.
+   * Use Partial<> because a mitigant may not apply equally to all technologies.
+   */
+  reduction: Partial<Record<Technology, number>>;
+  /** Short display label, e.g. "Virginia Clean Economy Act (VCEA)". */
+  label: string;
+  /** Human-readable description of what makes this a protective factor. */
+  status: string;
+  sourceUrl?: string;
+  /** ISO date string "YYYY-MM-DD". */
+  lastVerified: string;
+  confidence: Confidence;
+}
+
 export interface StateRecord {
   /** Two-letter USPS abbreviation. */
   code: string;
   name: string;
   factors: RiskFactor[];
+  /** Protective factors that reduce tier scores. Optional — omit for states with none. */
+  mitigants?: Mitigant[];
 }
 
 /**
@@ -56,10 +85,14 @@ export interface ThresholdConfig {
 /** Per-tier breakdown returned alongside every overall score. */
 export interface TierResult {
   tier: Tier;
-  /** Normalized 0–100 score for this tier. */
+  /** Raw risk score before any mitigant reductions are applied (0–100). */
+  rawRiskScore: number;
+  /** Final score after mitigants, floored at 0. Equal to rawRiskScore when no mitigants apply. */
   score: number;
   /** All applicable factors for this tier, including severity-0 ones. */
   factors: RiskFactor[];
+  /** Mitigants applied to this tier for the assessed technology. */
+  mitigants: Mitigant[];
 }
 
 /** Full result returned by assess(). Every number is traceable to factors + weights. */
