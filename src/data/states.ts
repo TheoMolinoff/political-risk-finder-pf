@@ -497,4 +497,74 @@ export const STATES: StateRecord[] = [
     // discretionary utility policy (EDGE/Bright Future), not a binding mandate —
     // so there is no legal floor under demand to encode as a protective factor.
   },
+
+  // ─── ARIZONA ─────────────────────────────────────────────────────────────
+  {
+    code: "AZ",
+    name: "Arizona",
+    factors: [
+      // ─── FEDERAL ───
+      {
+        id: "az-obbba-cliff",
+        tier: "federal",
+        technologies: ["wind", "solar", "battery"],
+        // OBBBA is federal — identical exposure to all states.
+        severity: { wind: 2, solar: 2, battery: 1 },
+        capitalImpact: "tax_equity",
+        status:
+          "OBBBA phases out ITC/PTC by mid-2026 with narrow safe-harbor windows; wind/solar materially exposed, battery secondarily.",
+        sourceUrl:
+          "https://pexapark.com/blog/battery-storage-values-reach-record-highs-in-ercot-defying-policy-impacts-on-wind-and-solar-deals-pexapark/",
+        lastVerified: "2026-06-04",
+        confidence: "verified",
+      },
+
+      // ─── STATE ───
+      {
+        id: "az-utility-procurement",
+        tier: "state",
+        technologies: ["wind", "solar", "battery"],
+        // REGULATED MARKET, but FAVORABLE: APS and SRP are aggressively
+        // procuring solar+storage from independent developers — e.g. SRP/NextEra
+        // 3,000 MW solar + 1,000 MW storage through 2027 (pv magazine, May 2026),
+        // plus Invenergy and Aypa deals. Strong utility procurement appetite means
+        // low offtake/procurement risk — the opposite of Utah's hostile utility.
+        severity: { wind: 1, solar: 1, battery: 1 },
+        capitalImpact: "offtake_merchant",
+        status:
+          "APS/SRP are aggressively procuring solar and storage from independent developers (e.g. SRP/NextEra 3 GW solar + 1 GW storage); strong utility offtake appetite keeps procurement risk low.",
+        sourceUrl:
+          "https://pv-magazine-usa.com/2026/05/01/srp-and-nextera-energy-resources-partner-on-massive-solar-and-storage-expansion/",
+        lastVerified: "2026-06-04",
+        confidence: "verified",
+      },
+
+      // ─── LOCAL ───
+      {
+        id: "az-county-moratoria",
+        tier: "local",
+        technologies: ["wind", "solar", "battery"],
+        // ARIZONA'S DEFINING RISK: active, spreading county-level moratoria and
+        // restrictions on utility-scale solar. Mohave County imposed a 240-day
+        // moratorium (Oct 2023), partially lifted (Jun 2024) to allow solar only
+        // on "Light Industrial" land; a new 120-day moratorium was considered
+        // Feb 2026 (Mohave Daily News). Chino Valley, Gila Bend, Surprise, Apache
+        // County and others are restricting or considering bans (KJZZ, Oct 2025).
+        // Concentrated on land-hungry utility-scale solar (3); battery/wind swept
+        // into "renewable" moratoria (2).
+        severity: { wind: 2, solar: 3, battery: 2 },
+        capitalImpact: "construction",
+        status:
+          "Active, spreading county moratoria and restrictions on utility-scale solar (Mohave, Chino Valley, Gila Bend, Apache, Surprise); severe and ongoing local siting risk concentrated on solar.",
+        sourceUrl:
+          "https://www.kjzz.org/the-show/2025-10-08/6-rural-arizona-towns-counties-have-limited-renewable-energy-projects-more-are-looking-into-it",
+        lastVerified: "2026-06-04",
+        confidence: "verified",
+      },
+    ],
+    // No mitigant: Arizona's utilities procure renewables voluntarily/economically
+    // rather than under a binding modern RPS mandate, so there is no protective
+    // law to encode. (Arizona's older 15%-by-2025 RPS is weak and effectively
+    // satisfied; it provides no forward procurement floor.)
+  },
 ];
