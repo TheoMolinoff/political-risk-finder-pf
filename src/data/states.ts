@@ -320,4 +320,94 @@ export const STATES: StateRecord[] = [
       },
     ],
   },
+  
+  // ─── UTAH ──────────────────────────────────────────────────────────
+  {
+    code: "UT",
+    name: "Utah",
+    factors: [
+      // ─── FEDERAL ───
+      {
+        id: "ut-obbba-cliff",
+        tier: "federal",
+        technologies: ["wind", "solar", "battery"],
+        // OBBBA is federal — identical exposure to all states.
+        severity: { wind: 2, solar: 2, battery: 1 },
+        capitalImpact: "tax_equity",
+        status:
+          "OBBBA phases out ITC/PTC by mid-2026 with narrow safe-harbor windows; wind/solar materially exposed, battery secondarily.",
+        sourceUrl:
+          "https://pexapark.com/blog/battery-storage-values-reach-record-highs-in-ercot-defying-policy-impacts-on-wind-and-solar-deals-pexapark/",
+        lastVerified: "2026-06-04",
+        confidence: "verified",
+      },
+
+      // ─── STATE ───
+      {
+        id: "ut-irp-procurement",
+        tier: "state",
+        technologies: ["wind", "solar", "battery"],
+        // REGULATED MARKET: PacifiCorp/Rocky Mountain Power is the monopoly
+        // offtaker. Its final 2025 IRP plans ZERO new wind/solar/geothermal and
+        // only limited battery for Utah over 20 years; only new generation is gas
+        // (mid-2030s) + a nuclear demo (Utah Clean Energy / Sierra Club, Mar-Apr
+        // 2026). The PSC declined to compel renewable procurement (Utah News
+        // Dispatch, Jun 2026). For a regulated market the central risk is whether
+        // the utility procures renewables at all — here it plans not to. NOTE:
+        // encoded as offtake_merchant but this is PROCUREMENT-AVAILABILITY risk,
+        // not price volatility (see pass-two: split merchant vs procurement risk).
+        severity: { wind: 3, solar: 3, battery: 2 },
+        capitalImpact: "offtake_merchant",
+        status:
+          "PacifiCorp's 2025 IRP plans zero new wind/solar and only limited battery for Utah over 20 years; PSC declined to compel procurement. As the monopoly offtaker, the utility is planning away from new renewables — severe procurement risk.",
+        sourceUrl:
+          "https://utahcleanenergy.org/why-rocky-mountain-powers-new-energy-plan-could-cost-utah-families-billions-more/",
+        lastVerified: "2026-06-04",
+        confidence: "verified",
+      },
+      {
+        id: "ut-market-access",
+        tier: "state",
+        technologies: ["wind", "solar", "battery"],
+        // With RMP not procuring, Utah projects increasingly depend on out-of-
+        // state market purchases / offtake, which the IRP itself flags as
+        // raising reliance on "volatile market purchases" (Utah Clean Energy,
+        // Mar 2026). Weaker, less-certain fallback offtake than an in-state PPA.
+        severity: { wind: 2, solar: 2, battery: 1 },
+        capitalImpact: "offtake_merchant",
+        status:
+          "With the in-state utility not procuring, projects must rely on weaker out-of-state/market offtake; IRP increases dependence on volatile market purchases.",
+        sourceUrl:
+          "https://utahcleanenergy.org/press-release/rocky-mountain-power-releases-draft-update-to-its-20-year-energy-plan/",
+        lastVerified: "2026-06-04",
+        confidence: "verified",
+      },
+
+      // ─── LOCAL ───
+      {
+        id: "ut-local-siting",
+        tier: "local",
+        technologies: ["wind", "solar", "battery"],
+        // Local siting is genuinely easy in Utah: the Sabin Center Opposition
+        // Report (updated Mar 2026) affirmatively finds NO restrictive local
+        // ordinances, NO contested projects, and NO restrictive state laws in
+        // Utah — vs 459+ jurisdictions with restrictions nationally. Real
+        // projects (e.g. Iron County solar+storage) move through routine
+        // permitting. Low across all technologies.
+        severity: { wind: 1, solar: 1, battery: 1 },
+        capitalImpact: "construction",
+        status:
+          "Sabin Center Opposition Report finds no restrictive local ordinances or contested projects in Utah; abundant land and low siting friction across technologies.",
+        sourceUrl:
+          "https://oppositionreport.org/reports/current/",
+        lastVerified: "2026-06-04",
+        confidence: "verified",
+      },
+    ],
+    // No mitigant: Utah's RPS is a non-binding goal ("20% by 2025 only if
+    // cost-effective"), providing no procurement support — unlike CA (SB 100)
+    // or VA (VCEA). This absence is itself the story: high state risk, nothing
+    // to offset it.
+  },
+
 ];
