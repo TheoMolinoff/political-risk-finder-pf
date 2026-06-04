@@ -196,4 +196,128 @@ export const STATES: StateRecord[] = [
     // a protective force in its own right, not a resolved risk.
     mitigants: [va_vcea],
   },
+
+  // ─── CALIFORNIA ──────────────────────────────────────────────────────────
+  {
+    code: "CA",
+    name: "California",
+    factors: [
+      // ─── FEDERAL ───
+      {
+        id: "ca-obbba-cliff",
+        tier: "federal",
+        technologies: ["wind", "solar", "battery"],
+        // OBBBA is federal — identical exposure to all states. ITC/PTC phase-out
+        // by mid-2026 with narrow safe-harbor windows; wind/solar materially
+        // exposed, battery secondarily.
+        severity: { wind: 2, solar: 2, battery: 1 },
+        capitalImpact: "tax_equity",
+        status:
+          "OBBBA phases out ITC/PTC by mid-2026 with narrow safe-harbor windows; wind/solar materially exposed, battery secondarily.",
+        sourceUrl:
+          "https://pexapark.com/blog/battery-storage-values-reach-record-highs-in-ercot-defying-policy-impacts-on-wind-and-solar-deals-pexapark/",
+        lastVerified: "2026-06-04",
+        confidence: "verified",
+      },
+
+      // ─── STATE ───
+      {
+        id: "ca-caiso-curtailment",
+        tier: "state",
+        technologies: ["wind", "solar", "battery"],
+        // CAISO duck curve: midday solar oversupply forces structural
+        // curtailment — >2M MWh of wind/solar curtailed annually, 738k+ MWh in
+        // just Jan-Apr 2025 (Yes Energy / EIA, 2025). Crushes solar capture
+        // prices (severe for solar=3); wind less exposed (1); battery BENEFITS
+        // by absorbing midday surplus, so low (1).
+        severity: { wind: 1, solar: 3, battery: 1 },
+        capitalImpact: "offtake_merchant",
+        status:
+          "CAISO duck-curve curtailment exceeds 2M MWh/yr; structural midday solar oversupply severely depresses solar capture prices. Battery benefits by absorbing surplus.",
+        sourceUrl:
+          "https://www.yesenergy.com/blog/the-duck-curve-explained-impacts-renewable-energy-curtailments",
+        lastVerified: "2026-06-04",
+        confidence: "verified",
+      },
+      {
+        id: "ca-resource-adequacy",
+        tier: "state",
+        technologies: ["wind", "solar", "battery"],
+        // CAISO Resource Adequacy "Slice of Day" framework requires LSEs to show
+        // capacity across all 24 hours (CPUC, 2025). Rewards resources that
+        // perform at peak — favorable to battery, weaker capacity value for
+        // intermittent solar. Distinct from curtailment: this is a capacity-
+        // revenue structure, not a spot-price risk.
+        severity: { wind: 1, solar: 2, battery: 1 },
+        capitalImpact: "offtake_merchant",
+        status:
+          "CAISO 'Slice of Day' Resource Adequacy rewards 24-hour capacity performance; intermittent solar earns weaker RA value while dispatchable battery is well-positioned.",
+        sourceUrl:
+          "https://www.cpuc.ca.gov/-/media/cpuc-website/divisions/energy-division/documents/resource-adequacy-homepage/resource-adequacy-compliance-materials/guides-and-resources/2026-ra-slice-of-day-filing-guide.pdf",
+        lastVerified: "2026-06-04",
+        confidence: "verified",
+      },
+
+      // ─── LOCAL ───
+      {
+        id: "ca-bess-fire-safety",
+        tier: "local",
+        technologies: ["wind", "solar", "battery"],
+        // Post-Moss Landing (Jan 2025 catastrophic BESS fire) regulation: SB 283
+        // (eff. Jan 1 2026) and AB 1285 impose NFPA 855 compliance and local
+        // fire-authority consultation on battery projects; AB 303 (failed) would
+        // have banned BESS within 3,200 ft of sensitive receptors (Energy Law
+        // Blog, Nov 2025). Battery-specific construction/permitting friction (2);
+        // not a ban. Does not affect wind/solar.
+        severity: { wind: 0, solar: 0, battery: 2 },
+        capitalImpact: "construction",
+        status:
+          "Post-Moss Landing BESS fire-safety rules (SB 283, AB 1285) add NFPA 855 compliance and fire-authority consultation; battery-specific permitting friction, not a ban.",
+        sourceUrl:
+          "https://www.energylawinfo.com/2025/11/california-battery-energy-storage-systems-legislation-update-safety-requirements-and-ab-205-opt-in-procedures-amended/",
+        lastVerified: "2026-06-04",
+        confidence: "verified",
+      },
+    ],
+
+    mitigants: [
+      {
+        id: "ca-sb100-mitigant",
+        tier: "state",
+        technologies: ["wind", "solar", "battery"],
+        // SB 100: 100% clean electricity by 2045, 60% renewables by 2030,
+        // enforced with $50/REC shortfall penalties. SB 350 requires 65% of RPS
+        // procurement via long-term (10yr+) contracts — mandated long-term PPAs
+        // directly de-risk offtake/bankability. Battery reduction highest: CA's
+        // storage procurement mandate is the nation's largest.
+        reduction: { wind: 20, solar: 20, battery: 25 },
+        label: "SB 100 Renewables Portfolio Standard",
+        status:
+          "SB 100 mandates 100% clean electricity by 2045 with enforceable RPS penalties; SB 350 requires 65% of procurement via 10yr+ contracts — a strong offtake/bankability tailwind, strongest for storage.",
+        sourceUrl:
+          "https://legalclarity.org/californias-sb-100-renewable-energy-goals-and-compliance/",
+        lastVerified: "2026-06-04",
+        confidence: "verified",
+      },
+      {
+        id: "ca-ab205-siting-mitigant",
+        tier: "local",
+        technologies: ["wind", "solar", "battery"],
+        // AB 205 (2022): developers can opt into a streamlined CEC permitting
+        // process that SUPERSEDES local zoning for solar/wind 50MW+ and storage
+        // 200MWh+ (Cox Castle / Columbia Law, 2022). A state-level escape hatch
+        // from local opposition. Partial: opt-in, sunsets 2029, excludes CPUC-
+        // jurisdiction utility projects. Battery reduction slightly lower (10)
+        // because new fire-safety rules partly offset the permitting relief.
+        reduction: { wind: 15, solar: 15, battery: 10 },
+        label: "AB 205 state siting preemption",
+        status:
+          "AB 205 lets qualifying projects opt into CEC permitting that supersedes local zoning — a state-level path around local opposition. Partial: opt-in, sunsets 2029, excludes CPUC-jurisdiction utility projects.",
+        sourceUrl:
+          "https://blogs.law.columbia.edu/climatechange/2022/08/09/new-california-law-allows-state-to-bypass-local-restrictions-in-siting-large-scale-renewables",
+        lastVerified: "2026-06-04",
+        confidence: "verified",
+      },
+    ],
+  },
 ];
