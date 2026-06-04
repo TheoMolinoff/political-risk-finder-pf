@@ -653,4 +653,108 @@ export const STATES: StateRecord[] = [
       },
     ],
   },
+
+  // ─── ILLINOIS ─────────────────────────────────────────────────────────────
+  {
+    code: "IL",
+    name: "Illinois",
+    factors: [
+      // ─── FEDERAL ───
+      {
+        id: "il-obbba-cliff",
+        tier: "federal",
+        technologies: ["wind", "solar", "battery"],
+        // OBBBA is federal — identical exposure to all states.
+        severity: { wind: 2, solar: 2, battery: 1 },
+        capitalImpact: "tax_equity",
+        status:
+          "OBBBA phases out ITC/PTC by mid-2026 with narrow safe-harbor windows; wind/solar materially exposed, battery secondarily.",
+        sourceUrl:
+          "https://pexapark.com/blog/battery-storage-values-reach-record-highs-in-ercot-defying-policy-impacts-on-wind-and-solar-deals-pexapark/",
+        lastVerified: "2026-06-04",
+        confidence: "verified",
+      },
+
+      // ─── STATE ───
+      {
+        id: "il-execution-gap",
+        tier: "state",
+        technologies: ["wind", "solar", "battery"],
+        // ILLINOIS' DEFINING RISK: the largest mandate-to-deployment gap in any
+        // US market. Illinois + Michigan mandate 5,500 MW of storage by 2030 but
+        // only 119 MW operates, with untested permitting paths and interconnection-
+        // queue risk (Modo Energy, Feb 2026). The mandate is strong but DELIVERY
+        // is the bottleneck. Worst for storage (battery=3 — huge gap); wind/solar
+        // face queue congestion but more mature deployment (2).
+        severity: { wind: 2, solar: 2, battery: 3 },
+        capitalImpact: "construction",
+        status:
+          "Largest mandate-to-deployment gap in any US market (5,500 MW storage mandated by 2030, ~119 MW built); untested permitting and interconnection-queue risk, most acute for storage.",
+        sourceUrl:
+          "https://modoenergy.com/research/en/miso-bess-build-locations",
+        lastVerified: "2026-06-04",
+        confidence: "verified",
+      },
+      {
+        id: "il-merchant-capacity",
+        tier: "state",
+        technologies: ["wind", "solar", "battery"],
+        // Restructured/retail-choice market spanning MISO (downstate/Ameren) and
+        // PJM (Chicago/ComEd); projects carry merchant price + capacity-auction
+        // exposure. MISO summer capacity prices spiked from $30 to $666/MW-day
+        // (2024→2025), and capacity revenue still covers <15% of a 4-hr BESS
+        // requirement (Modo Energy, 2026). Battery lower (1) — capacity markets
+        // reward dispatchable storage.
+        severity: { wind: 2, solar: 2, battery: 1 },
+        capitalImpact: "offtake_merchant",
+        status:
+          "Restructured MISO/PJM market with merchant price and capacity-auction exposure; volatile capacity prices and thin capacity revenue for storage create revenue uncertainty.",
+        sourceUrl:
+          "https://modoenergy.com/research/en/miso-bess-build-locations",
+        lastVerified: "2026-06-04",
+        confidence: "verified",
+      },
+    ],
+
+    mitigants: [
+      {
+        id: "il-ceja-crga-mitigant",
+        tier: "state",
+        technologies: ["wind", "solar", "battery"],
+        // CEJA (2021): 100% clean by 2050, 40% by 2030 / 50% by 2040, more than
+        // doubled RPS funding. Strengthened by CRGA (SB 25, signed Jan 2026, eff.
+        // Jun 1 2026), which added storage programs and expanded community solar
+        // (K&L Gates; PV Tech; UCS, 2026). SEIA forecasts 14.6 GW new solar over
+        // 5 years (4th-most in US). A strong demand floor de-risking offtake.
+        reduction: { wind: 20, solar: 20, battery: 20 },
+        label: "CEJA + CRGA clean-energy mandate",
+        status:
+          "CEJA mandates 100% clean by 2050 (40% by 2030) with doubled RPS funding; CRGA (2026) adds storage programs — among the strongest demand floors in the US, de-risking offtake.",
+        sourceUrl:
+          "https://www.pv-tech.org/illinois-signs-clean-energy-bill-will-drive-investments-for-solar-pv-battery-storage-and-vpps/",
+        lastVerified: "2026-06-04",
+        confidence: "verified",
+      },
+      {
+        id: "il-hb4412-siting-mitigant",
+        tier: "local",
+        technologies: ["wind", "solar", "battery"],
+        // HB 4412 (P.A. 102-1123, eff. Jan 2023): statewide preemption of local
+        // siting restrictions for utility-scale wind/solar — requires uniform
+        // state setback standards and precludes stricter local rules (K&L Gates;
+        // IL Environmental Council). CRGA (2026) added a state-level siting
+        // dispute-resolution process. Broad, non-opt-in (unlike CA's AB 205) —
+        // strongly reduces local siting risk. Battery slightly lower (15): the
+        // law centers on wind/solar siting.
+        reduction: { wind: 20, solar: 20, battery: 15 },
+        label: "HB 4412 statewide siting preemption",
+        status:
+          "HB 4412 preempts local siting restrictions for utility-scale wind/solar with uniform statewide standards; broad and non-opt-in, strongly reducing local siting risk.",
+        sourceUrl:
+          "https://ilenviro.org/gov-pritzker-signs-legislation-protecting-clean-energy-projects/",
+        lastVerified: "2026-06-04",
+        confidence: "verified",
+      },
+    ],
+  },
 ];
