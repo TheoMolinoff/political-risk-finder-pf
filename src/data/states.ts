@@ -410,4 +410,91 @@ export const STATES: StateRecord[] = [
     // to offset it.
   },
 
+  // ─── MISSISSIPPI ─────────────────────────────────────────────────────────
+  {
+    code: "MS",
+    name: "Mississippi",
+    factors: [
+      // ─── FEDERAL ───
+      {
+        id: "ms-obbba-cliff",
+        tier: "federal",
+        technologies: ["wind", "solar", "battery"],
+        // OBBBA is federal — identical exposure to all states. (Note: MS is a
+        // negligible-wind-resource state, so wind is largely academic here.)
+        severity: { wind: 2, solar: 2, battery: 1 },
+        capitalImpact: "tax_equity",
+        status:
+          "OBBBA phases out ITC/PTC by mid-2026 with narrow safe-harbor windows; wind/solar materially exposed, battery secondarily.",
+        sourceUrl:
+          "https://pexapark.com/blog/battery-storage-values-reach-record-highs-in-ercot-defying-policy-impacts-on-wind-and-solar-deals-pexapark/",
+        lastVerified: "2026-06-04",
+        confidence: "verified",
+      },
+
+      // ─── STATE ───
+      {
+        id: "ms-discretionary-procurement",
+        tier: "state",
+        technologies: ["wind", "solar", "battery"],
+        // REGULATED MARKET: Entergy Mississippi is a monopoly utility actively
+        // expanding renewables (EDGE initiative: +500 MW by 2025, +500 MW by
+        // 2027; renewables to ~1/3 of generation by 2027 — Utility Dive). But
+        // growth is DISCRETIONARY utility policy, not an RPS mandate, and much
+        // is utility-OWNED rather than independent-developer PPAs. Independent
+        // projects depend on the utility continuing to choose to procure.
+        // (Encoded offtake_merchant = procurement-availability, not price.)
+        severity: { wind: 2, solar: 2, battery: 2 },
+        capitalImpact: "offtake_merchant",
+        status:
+          "Entergy Mississippi is expanding renewables (EDGE initiative) but procurement is discretionary, not RPS-mandated, and much is utility-owned — independent projects depend on continued utility procurement appetite.",
+        sourceUrl:
+          "https://www.utilitydive.com/news/entergy-mississippi-readies-big-push-into-renewable-power-with-plans-to-add/609868/",
+        lastVerified: "2026-06-04",
+        confidence: "verified",
+      },
+      {
+        id: "ms-single-buyer",
+        tier: "state",
+        technologies: ["wind", "solar", "battery"],
+        // Monopsony offtake: one dominant utility buyer, no competitive
+        // wholesale market and no RPS-driven demand. Concentrates offtake risk
+        // for independent developers. Solar lower (1) because Entergy is
+        // demonstrably procuring solar (e.g. Sunflower Solar Station).
+        severity: { wind: 2, solar: 1, battery: 2 },
+        capitalImpact: "offtake_merchant",
+        status:
+          "Single dominant utility offtaker with no competitive wholesale market or RPS demand concentrates offtake risk; solar somewhat de-risked by demonstrated utility procurement.",
+        sourceUrl:
+          "https://www.entergy.com/blog/entergys-news-solar-station-wildlife-mississippi",
+        lastVerified: "2026-06-04",
+        confidence: "verified",
+      },
+
+      // ─── LOCAL ───
+      {
+        id: "ms-solar-siting",
+        tier: "local",
+        technologies: ["wind", "solar", "battery"],
+        // Documented local opposition to large solar farms on farmland: Soul
+        // City and Hinds Solar projects near Bolton/Raymond drew litigation
+        // (circuit court, Feb 2025) and legislative pushback; opponents seek
+        // state siting guidelines that currently DON'T EXIST, so no framework
+        // provides predictability (Mississippi Independent, Oct 2024). Solar=2
+        // (real, contested, farmland conflict, but not a statewide ban). Wind
+        // negligible market (1); battery not the opposition focus (1).
+        severity: { wind: 1, solar: 2, battery: 1 },
+        capitalImpact: "construction",
+        status:
+          "Active local opposition and litigation against large solar farms on farmland (Soul City, Hinds Solar); no state siting framework provides predictability. Concentrated on solar.",
+        sourceUrl:
+          "https://msindy.org/p/opponents-of-mississippis-largest",
+        lastVerified: "2026-06-04",
+        confidence: "verified",
+      },
+    ],
+    // No mitigant: Mississippi has no state RPS. Renewable growth is
+    // discretionary utility policy (EDGE/Bright Future), not a binding mandate —
+    // so there is no legal floor under demand to encode as a protective factor.
+  },
 ];
