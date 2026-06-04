@@ -567,4 +567,90 @@ export const STATES: StateRecord[] = [
     // law to encode. (Arizona's older 15%-by-2025 RPS is weak and effectively
     // satisfied; it provides no forward procurement floor.)
   },
+
+  // ─── NEVADA ──────────────────────────────────────────────────────────────
+  {
+    code: "NV",
+    name: "Nevada",
+    factors: [
+      // ─── FEDERAL ───
+      {
+        id: "nv-obbba-cliff",
+        tier: "federal",
+        technologies: ["wind", "solar", "battery"],
+        // OBBBA is federal — identical exposure to all states.
+        severity: { wind: 2, solar: 2, battery: 1 },
+        capitalImpact: "tax_equity",
+        status:
+          "OBBBA phases out ITC/PTC by mid-2026 with narrow safe-harbor windows; wind/solar materially exposed, battery secondarily.",
+        sourceUrl:
+          "https://pexapark.com/blog/battery-storage-values-reach-record-highs-in-ercot-defying-policy-impacts-on-wind-and-solar-deals-pexapark/",
+        lastVerified: "2026-06-04",
+        confidence: "verified",
+      },
+
+      // ─── STATE ───
+      {
+        id: "nv-single-utility",
+        tier: "state",
+        technologies: ["wind", "solar", "battery"],
+        // REGULATED MARKET: NV Energy (Berkshire Hathaway subsidiary) is the
+        // monopoly offtaker, so offtake is concentrated in one buyer. But it is
+        // actively procuring to meet a binding RPS — IRP Preferred Plan requests
+        // 1,000+ MW of paired solar+storage (PUCN IRP, 2024). Low procurement
+        // risk; the RPS mitigant below offsets most of the single-buyer concern.
+        severity: { wind: 1, solar: 1, battery: 1 },
+        capitalImpact: "offtake_merchant",
+        status:
+          "NV Energy is the monopoly offtaker but is actively procuring 1,000+ MW of solar+storage to meet a binding RPS; concentrated-buyer risk is low.",
+        sourceUrl:
+          "https://www.nvenergy.com/publish/content/dam/nvenergy/brochures_arch/about-nvenergy/rates-regulatory/recent-regulatory-filings/irp/IRP-Volume-5.pdf",
+        lastVerified: "2026-06-04",
+        confidence: "verified",
+      },
+
+      // ─── LOCAL ───
+      {
+        id: "nv-blm-permitting",
+        tier: "local",
+        technologies: ["wind", "solar", "battery"],
+        // Much Nevada utility-scale solar is sited on federal BLM land, adding
+        // NEPA/federal permitting timeline risk distinct from county moratoria
+        // (CNEE Nevada State Brief, 2025). Concentrated on land-hungry solar (2);
+        // wind/battery lower. Nevada has comparatively little organized county-
+        // level renewable opposition relative to Arizona.
+        severity: { wind: 1, solar: 2, battery: 1 },
+        capitalImpact: "construction",
+        status:
+          "Much utility-scale solar sits on federal BLM land, adding NEPA/federal permitting timeline risk; less organized county-level opposition than neighboring states.",
+        sourceUrl:
+          "https://cnee.colostate.edu/wp-content/uploads/2025/07/NV-State-Brief_2025_Final.pdf",
+        lastVerified: "2026-06-04",
+        confidence: "verified",
+      },
+    ],
+
+    mitigants: [
+      {
+        id: "nv-rps-mitigant",
+        tier: "state",
+        technologies: ["wind", "solar", "battery"],
+        // Nevada RPS (NRS 704.7801): binding 50%-by-2030 standard, ramping 34%
+        // (2024-26) / 42% (2027-29) / 50% (2030+); energy-efficiency credits
+        // eliminated from 2025, tightening the real renewable requirement. The
+        // 50%-by-2030 target is also constitutionally enshrined (ballot Question
+        // 6), making it unusually durable (PUCN; Utility Dive). A real demand
+        // floor that de-risks offtake. Battery reduction slightly lower — the RPS
+        // targets renewable generation more directly than storage.
+        reduction: { wind: 20, solar: 20, battery: 15 },
+        label: "Nevada RPS (50% by 2030)",
+        status:
+          "Binding RPS requires 50% renewables by 2030 (constitutionally enshrined via ballot Question 6); energy-efficiency credits eliminated from 2025 — a durable demand floor that de-risks offtake.",
+        sourceUrl:
+          "https://puc.nv.gov/Renewable_Energy/Portfolio_Standard",
+        lastVerified: "2026-06-04",
+        confidence: "verified",
+      },
+    ],
+  },
 ];
