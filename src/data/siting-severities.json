@@ -1,0 +1,210 @@
+{
+  "_meta": {
+    "dataset": "Sabin Center Opposition Report 2025 (data through Dec 2024)",
+    "source": "https://oppositionreport.org",
+    "rubric": "Per technology: score restriction-count and contested-count separately into bands (0=0, 1-3=1, 4-10=2, 11+=3); severity = max(restrictionBand, contestedBand). Restrictions reflect structural/legal barriers; contested projects reflect active opposition. Documented post-dataset news may override (see _override).",
+    "nationalContext": "~30% of utility-scale wind/solar projects were cancelled during siting 2018-2023 (Sabin Center).",
+    "generatedBy": "scripts/derive-siting.ts"
+  },
+  "states": {
+    "TX": {
+      "wind": {
+        "restrictions": 21,
+        "contested": 8,
+        "restrictionBand": 3,
+        "contestedBand": 2,
+        "severity": 3
+      },
+      "solar": {
+        "restrictions": 2,
+        "contested": 6,
+        "restrictionBand": 1,
+        "contestedBand": 2,
+        "severity": 2
+      },
+      "battery": {
+        "restrictions": 0,
+        "contested": 2,
+        "restrictionBand": 0,
+        "contestedBand": 1,
+        "severity": 1
+      }
+    },
+    "VA": {
+      "wind": {
+        "restrictions": 3,
+        "contested": 3,
+        "restrictionBand": 1,
+        "contestedBand": 1,
+        "severity": 1
+      },
+      "solar": {
+        "restrictions": 27,
+        "contested": 36,
+        "restrictionBand": 3,
+        "contestedBand": 3,
+        "severity": 3
+      },
+      "battery": {
+        "restrictions": 0,
+        "contested": 1,
+        "restrictionBand": 0,
+        "contestedBand": 1,
+        "severity": 1
+      }
+    },
+    "CA": {
+      "wind": {
+        "restrictions": 3,
+        "contested": 15,
+        "restrictionBand": 1,
+        "contestedBand": 3,
+        "severity": 3
+      },
+      "solar": {
+        "restrictions": 3,
+        "contested": 14,
+        "restrictionBand": 1,
+        "contestedBand": 3,
+        "severity": 3
+      },
+      "battery": {
+        "restrictions": 1,
+        "contested": 5,
+        "restrictionBand": 1,
+        "contestedBand": 2,
+        "severity": 2
+      }
+    },
+    "UT": {
+      "wind": {
+        "restrictions": 0,
+        "contested": 0,
+        "restrictionBand": 0,
+        "contestedBand": 0,
+        "severity": 0
+      },
+      "solar": {
+        "restrictions": 1,
+        "contested": 0,
+        "restrictionBand": 1,
+        "contestedBand": 0,
+        "severity": 1
+      },
+      "battery": {
+        "restrictions": 0,
+        "contested": 0,
+        "restrictionBand": 0,
+        "contestedBand": 0,
+        "severity": 0
+      }
+    },
+    "MS": {
+      "wind": {
+        "restrictions": 0,
+        "contested": 0,
+        "restrictionBand": 0,
+        "contestedBand": 0,
+        "severity": 0
+      },
+      "solar": {
+        "restrictions": 0,
+        "contested": 2,
+        "restrictionBand": 0,
+        "contestedBand": 1,
+        "severity": 1
+      },
+      "battery": {
+        "restrictions": 0,
+        "contested": 1,
+        "restrictionBand": 0,
+        "contestedBand": 1,
+        "severity": 1
+      }
+    },
+    "AZ": {
+      "wind": {
+        "restrictions": 0,
+        "contested": 0,
+        "restrictionBand": 0,
+        "contestedBand": 0,
+        "severity": 1,
+        "computedSeverity": 0,
+        "_override": {
+          "reason": "Sabin 2024 dataset shows low counts; superseded by documented 2025-26 county solar moratoria (Mohave, Chino Valley, Gila Bend).",
+          "source": "https://www.kjzz.org/the-show/2025-10-08/6-rural-arizona-towns-counties-have-limited-renewable-energy-projects-more-are-looking-into-it"
+        }
+      },
+      "solar": {
+        "restrictions": 2,
+        "contested": 1,
+        "restrictionBand": 1,
+        "contestedBand": 1,
+        "severity": 3,
+        "computedSeverity": 1,
+        "_override": {
+          "reason": "Sabin 2024 dataset shows low counts; superseded by documented 2025-26 county solar moratoria (Mohave, Chino Valley, Gila Bend).",
+          "source": "https://www.kjzz.org/the-show/2025-10-08/6-rural-arizona-towns-counties-have-limited-renewable-energy-projects-more-are-looking-into-it"
+        }
+      },
+      "battery": {
+        "restrictions": 0,
+        "contested": 1,
+        "restrictionBand": 0,
+        "contestedBand": 1,
+        "severity": 2,
+        "computedSeverity": 1,
+        "_override": {
+          "reason": "Sabin 2024 dataset shows low counts; superseded by documented 2025-26 county solar moratoria (Mohave, Chino Valley, Gila Bend).",
+          "source": "https://www.kjzz.org/the-show/2025-10-08/6-rural-arizona-towns-counties-have-limited-renewable-energy-projects-more-are-looking-into-it"
+        }
+      }
+    },
+    "NV": {
+      "wind": {
+        "restrictions": 1,
+        "contested": 6,
+        "restrictionBand": 1,
+        "contestedBand": 2,
+        "severity": 2
+      },
+      "solar": {
+        "restrictions": 1,
+        "contested": 10,
+        "restrictionBand": 1,
+        "contestedBand": 2,
+        "severity": 2
+      },
+      "battery": {
+        "restrictions": 0,
+        "contested": 2,
+        "restrictionBand": 0,
+        "contestedBand": 1,
+        "severity": 1
+      }
+    },
+    "IL": {
+      "wind": {
+        "restrictions": 9,
+        "contested": 8,
+        "restrictionBand": 2,
+        "contestedBand": 2,
+        "severity": 2
+      },
+      "solar": {
+        "restrictions": 3,
+        "contested": 9,
+        "restrictionBand": 1,
+        "contestedBand": 2,
+        "severity": 2
+      },
+      "battery": {
+        "restrictions": 1,
+        "contested": 0,
+        "restrictionBand": 1,
+        "contestedBand": 0,
+        "severity": 1
+      }
+    }
+  }
+}

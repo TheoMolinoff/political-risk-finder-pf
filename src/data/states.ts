@@ -50,6 +50,9 @@ export const STATES: StateRecord[] = [
           "https://pexapark.com/blog/battery-storage-values-reach-record-highs-in-ercot-defying-policy-impacts-on-wind-and-solar-deals-pexapark/",
         lastVerified: "2026-06-03",
         confidence: "verified",
+        metric: "Wind/solar subject to OBBBA ITC/PTC phase-out by mid-2026; battery retains partial 48E access (Pexapark/Modo, 2025).",
+        rubric: "Federal credit phase-out: technology subject to ITC/PTC loss = 2; secondarily exposed (battery) = 1.",
+        basis: "data-anchored",
       },
   
       // ─── STATE ───
@@ -70,6 +73,9 @@ export const STATES: StateRecord[] = [
           "https://www.texastribune.org/2026/02/04/texas-investment-divest-boycott-fossil-fuels-lawsuit-ruling-esg/",
         lastVerified: "2026-06-03",
         confidence: "verified",
+        metric: "SB 13 enjoined as unconstitutional Feb 2026 (W.D. Tex.); currently non-binding, appeal possible.",
+        rubric: "Enjoined/non-binding law = severity 0 (retained in model under resolved-factors toggle); appeal risk is qualitative.",
+        basis: "qualitative",
       },
       {
         id: "tx-sb819-siting",
@@ -87,6 +93,9 @@ export const STATES: StateRecord[] = [
           "https://pexapark.com/blog/texas-decides-against-breaking-up-with-renewables/",
         lastVerified: "2026-06-03",
         confidence: "verified",
+        metric: "SB 819 statewide siting bill passed TX Senate, died in House 2025 session; no enacted restriction.",
+        rubric: "Defeated-but-recurring legislative threat = severity 1 (forward-looking, not a current enacted restriction).",
+        basis: "qualitative",
       },
       {
         id: "tx-ercot-merchant",
@@ -104,6 +113,9 @@ export const STATES: StateRecord[] = [
           "https://www.ess-news.com/2025/11/25/battery-energy-storage-revenues-for-ancillary-services-fall-nearly-90-in-ercot/",
         lastVerified: "2026-06-03",
         confidence: "verified",
+        metric: "ERCOT energy-only market; wind/solar capture ~$17/MWh at LCOE floor; battery merchant revenue fell ~90% ($149→$17/kWh) 2023-25 (Modo/Enverus, 2025).",
+        rubric: "Merchant severity: capture price above LCOE/strong capacity revenue = 1; near LCOE = 2; at/below LCOE or energy-only with no capacity floor = 3. ERCOT = 2 (near floor, no capacity market).",
+        basis: "data-anchored",
       },
   
       // ─── LOCAL ───
@@ -115,7 +127,9 @@ export const STATES: StateRecord[] = [
         // potential WIND capacity 87% vs SOLAR 38% (R Street / NREL 2023) —
         // basis for wind=3 vs solar=1. Blanket "green energy" moratoria (e.g.
         // Van Zandt County, WRI Mar 2026) can also sweep in battery → battery=1.
-        severity: { wind: 3, solar: 1, battery: 1 },
+        // Sabin 2025 data upgrades solar from 1→2: TX has 2 solar restrictions +
+        // 6 contested projects, mapping to the 4-10 → severity 2 band.
+        severity: { wind: 3, solar: 2, battery: 1 },
         capitalImpact: "construction",
         status:
           "County setback ordinances and moratoria; severe for wind (NREL: 87% potential capacity reduction), modest for solar, latent for battery via blanket green-energy moratoria.",
@@ -123,6 +137,9 @@ export const STATES: StateRecord[] = [
           "https://www.wri.org/insights/clean-energy-restrictive-siting-laws",
         lastVerified: "2026-06-03",
         confidence: "verified",
+        metric: "Sabin Center 2025: TX has 21 local restrictions (wind 21, solar 2) and 14 contested projects (wind 8, solar 6, 5 cancelled). Nationally ~30% of utility-scale wind/solar cancelled at siting 2018-23 (Sabin).",
+        rubric: "Local siting: max of (restrictions + contested) per tech — 0=0, 1-3=1, 4-10=2, 11+/active moratorium=3. Wind 29 signals→3; solar 8→2; battery low→1. NREL: restrictive setbacks cut wind potential 87% vs solar 38%.",
+        basis: "data-anchored",
       },
     ],
   },

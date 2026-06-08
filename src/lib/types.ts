@@ -26,6 +26,12 @@ export interface RiskFactor {
   /** ISO date string "YYYY-MM-DD" indicating when this factor was last reviewed. */
   lastVerified: string;
   confidence: Confidence;
+  /** The documented quantitative basis for this severity, e.g. a dataset count or figure. */
+  metric?: string;
+  /** The disclosed mapping rule applied to the metric to produce the severity. */
+  rubric?: string;
+  /** Honesty label: 'data-anchored' if tied to a dataset/figure, 'qualitative' if expert judgment. */
+  basis?: 'data-anchored' | 'qualitative';
 }
 
 /**
