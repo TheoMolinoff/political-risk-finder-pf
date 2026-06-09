@@ -28,6 +28,23 @@ type StateCode = (typeof STATES)[number];
 type Tech = 'wind' | 'solar' | 'battery';
 const TECH_MAP: Record<string, Tech> = { Wind: 'wind', Solar: 'solar', Storage: 'battery' };
 
+// Dead citation links (found by check-links.ts), resolved transparently:
+// archived via Wayback where a snapshot exists, else '' to mark unavailable.
+const CITATION_OVERRIDES: Record<string, string> = {
+  'https://www.thenewsprogress.com/news/article_a4ae1e12-2a37-11ec-96a0-ffb4878929ec.html':
+    'https://web.archive.org/web/20211105220616/https://www.thenewsprogress.com/news/article_a4ae1e12-2a37-11ec-96a0-ffb4878929ec.html',
+  'https://www.thedinwiddiemonitor.com/news/dinwiddie-rejects-solar-project-agreement/article_d7409a8e-3825-11ec-8133-6fdf2e2bed7f.html':
+    'https://web.archive.org/web/20240207204121/https://www.thedinwiddiemonitor.com/news/dinwiddie-rejects-solar-project-agreement/article_d7409a8e-3825-11ec-8133-6fdf2e2bed7f.html',
+  'https://www.rappnews.com/news/landuse/fauquier-planners-reject-utility-scale-solar-project/article_a60554e2-b21e-541d-90c1-7fd87f99345e.html':
+    'https://web.archive.org/web/20250410001935/https://www.rappnews.com/news/landuse/fauquier-planners-reject-utility-scale-solar-project/article_a60554e2-b21e-541d-90c1-7fd87f99345e.html',
+  // No Wayback snapshot — mark unavailable (no honest source to link):
+  'https://martinsvillebulletin.com/news/local/govt-and-politics/board-of-zoning-appeals-denies-two-solar-farm-requests-in-axton/article_764ee4c0-4e31-11ec-a948-3fa623accb601.html': '',
+  'https://www.emporiaindependentmessenger.com/news/article_63a5fd42-1413-11ed-949f-c79cf9166f59.html': '',
+  'https://www.redding.com/story/news/local/2025/12/20/california-energy-commission-denies-shasta-county-fountain-wind-farm/87853324007/': '',
+  'https://eplanning.blm.gov/eplanning-ui/project/2020804/510': '',
+  'https://www.westernwaternotes.com/p/pyramid-lake-paiute-tribe-opposes': '',
+};
+
 /** Minimal RFC-4180 CSV parser (handles quoted fields, embedded commas/newlines). */
 function parseCSV(text: string): string[][] {
   const rows: string[][] = [];
@@ -99,8 +116,11 @@ function main() {
       cancelled: (row[iCancelled] ?? '').trim(),
       capacity: (row[iCapacity] ?? '').trim(),
       sourceUrl: (() => {
-        const m = (row[iCitations] ?? '').match(/https?:\/\/[^\s;,]+/);
-        return m ? m[0] : '';
+        const m = (row[iCitations] ?? '').match(/https?:\/\/[^\s;,<>"']+/);
+        if (!m) return '';
+        const raw = m[0].replace(/[.,;]+$/, '');
+        // Apply known dead-link overrides (archived replacement or '' if unavailable):
+        return raw in CITATION_OVERRIDES ? CITATION_OVERRIDES[raw] : raw;
       })(),
     };
     for (const tech of techs) data[st][tech].push(project);
