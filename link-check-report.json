@@ -1,0 +1,1196 @@
+{
+  "generatedAt": "2026-06-09T21:23:49.527Z",
+  "summary": {
+    "total": 146,
+    "ok": 117,
+    "dead": 17,
+    "suspicious": 12
+  },
+  "results": [
+    {
+      "url": "https://www.law.uh.edu/faculty/thester/courses/emerging%20tech%202011/HorseHollow2p.pdf.",
+      "status": 404,
+      "category": "dead",
+      "usedBy": [
+        "contested:TX/wind/Horse Hollow Wind Energy Center (Nolan and Taylor Counties)"
+      ]
+    },
+    {
+      "url": "https://www.washingtonpost.com/lifestyle/magazine/a-battle-of-green-against-green-in-this-texas-community/2021/07/30/836a6e4c-eaf7-11eb-ba5d-55d3b5ffcaf1_story.html.",
+      "status": 404,
+      "category": "dead",
+      "usedBy": [
+        "contested:TX/solar/Hopkins Energy LLC’s Solar Project (Hopkins County)"
+      ]
+    },
+    {
+      "url": "https://www.thenewsprogress.com/news/article_a4ae1e12-2a37-11ec-96a0-ffb4878929ec.html",
+      "status": null,
+      "category": "dead",
+      "usedBy": [
+        "contested:VA/solar/7 Bridges Solar Project (Mecklenburg County)"
+      ]
+    },
+    {
+      "url": "https://martinsvillebulletin.com/news/local/govt-and-politics/board-of-zoning-appeals-denies-two-solar-farm-requests-in-axton/article_764ee4c0-4e31-11ec-a948-3fa623aCcb601.html",
+      "status": null,
+      "category": "dead",
+      "usedBy": [
+        "contested:VA/solar/Axton Solar Project (Henry County)",
+        "contested:VA/solar/Rocky Ford Solar Energy Project (Henry County)"
+      ]
+    },
+    {
+      "url": "https://richmond.com/news/local/central-virginia/powhatan/powhatan-today/solar-farm-withdraws-application-after-board-denies-appeal/article_5efbcfd8-459a-11e9-9f47-ab35e59dc6b4.html.",
+      "status": 404,
+      "category": "dead",
+      "usedBy": [
+        "contested:VA/solar/Cartersville Solar (Powhatan County)"
+      ]
+    },
+    {
+      "url": "https://fredericksburg.com/news/local/culpeper-solar-farm-called-off-after-pushback/article_70b5375a-d4a6-11e9-b588-03024bc459c8.html.",
+      "status": 404,
+      "category": "dead",
+      "usedBy": [
+        "contested:VA/solar/Cricket Solar (Culpepper County)"
+      ]
+    },
+    {
+      "url": "https://dailyprogress.com/news/community/orangenews/article_80aa5a40-e7e9-11ee-8e54-53487c1362d8.html.",
+      "status": 404,
+      "category": "dead",
+      "usedBy": [
+        "contested:VA/solar/Cunningham Springs Solar (Orange County)"
+      ]
+    },
+    {
+      "url": "https://www.thedinwiddiemonitor.com/news/dinwiddie-rejects-solar-project-agreement/article_d7409a8e-3825-11ec-8133-6fdf2e2bed7f.html.",
+      "status": null,
+      "category": "dead",
+      "usedBy": [
+        "contested:VA/solar/Lily Pond Solar (Dinwiddie County)"
+      ]
+    },
+    {
+      "url": "https://fredericksburg.com/news/local/maroon-solar-project-withdrawn-company-says-it-will-resubmit-to-comply-with-new-rules/article_24ee72e4-426c-5e40-b91c-f4e9bd6f368d.html.",
+      "status": 404,
+      "category": "dead",
+      "usedBy": [
+        "contested:VA/solar/Maroon Solar (Culpeper County)"
+      ]
+    },
+    {
+      "url": "https://www.emporiaindependentmessenger.com/news/article_63a5fd42-1413-11ed-949f-c79cf9166f59.html.",
+      "status": 404,
+      "category": "dead",
+      "usedBy": [
+        "contested:VA/solar/Monarch Solar Project (Greensville County)"
+      ]
+    },
+    {
+      "url": "https://www.rappnews.com/news/landuse/fauquier-planners-reject-utility-scale-solar-project/article_a60554e2-b21e-541d-90c1-7fd87f99345e.html",
+      "status": 404,
+      "category": "dead",
+      "usedBy": [
+        "contested:VA/solar/Almeda Solar Grazing Center (Fauquier County)"
+      ]
+    },
+    {
+      "url": "https://www.redding.com/story/news/local/2025/12/20/california-energy-commission-denies-shasta-county-fountain-wind-farm/87853324007/",
+      "status": null,
+      "category": "dead",
+      "usedBy": [
+        "contested:CA/wind/Fountain Wind Project (Shasta County)"
+      ]
+    },
+    {
+      "url": "https://www.myheraldreview.com/county-p-z-denies-special-use-permit-for-solar-farm/article_0c16d914-71fb-11ef-8e52-eb0ef4ea0281.html.",
+      "status": 404,
+      "category": "dead",
+      "usedBy": [
+        "contested:AZ/solar/Horus Energy AZ 1 LLC’s Prince Road Solar Project (Cochise County)"
+      ]
+    },
+    {
+      "url": "https://apnews.com/article/technology-government-and-politics-environment-and-nature-las-vegas-nevada-9bf3640dfefbc6f7f45a97c6810f5ff7.",
+      "status": 404,
+      "category": "dead",
+      "usedBy": [
+        "contested:NV/solar/Battle Born Solar (Clark County)"
+      ]
+    },
+    {
+      "url": "https://eplanning.blm.gov/eplanning-ui/project/2020804/510",
+      "status": 404,
+      "category": "dead",
+      "usedBy": [
+        "contested:NV/solar/Esmeralda Seven Solar Project (Esmeralda County)",
+        "contested:NV/battery/Esmeralda Seven Solar Project (Esmeralda County)"
+      ]
+    },
+    {
+      "url": "https://www.westernwaternotes.com/p/pyramid-lake-paiute-tribe-opposes",
+      "status": null,
+      "category": "dead",
+      "usedBy": [
+        "contested:NV/battery/Pyramid Lake Pumped Storage Project (Lyon, Storey, and Washoe Counties)"
+      ]
+    },
+    {
+      "url": "https://www.chicagotribune.com/2025/05/15/new-lenox-solar-farm-rejected/</span><span",
+      "status": 404,
+      "category": "dead",
+      "usedBy": [
+        "contested:IL/solar/New Lenox Township Solar Project (Will County)"
+      ]
+    },
+    {
+      "url": "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-585.1/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "states.ts:va-vcea-mandate"
+      ]
+    },
+    {
+      "url": "https://pexapark.com/blog/battery-storage-values-reach-record-highs-in-ercot-defying-policy-impacts-on-wind-and-solar-deals-pexapark/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "states.ts:(factor)",
+        "states.ts:(factor)",
+        "states.ts:(factor)",
+        "states.ts:(factor)",
+        "states.ts:(factor)",
+        "states.ts:(factor)",
+        "states.ts:(factor)",
+        "states.ts:(factor)"
+      ]
+    },
+    {
+      "url": "https://www.texastribune.org/2026/02/04/texas-investment-divest-boycott-fossil-fuels-lawsuit-ruling-esg/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "states.ts:(factor)"
+      ]
+    },
+    {
+      "url": "https://pexapark.com/blog/texas-decides-against-breaking-up-with-renewables/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "states.ts:(factor)"
+      ]
+    },
+    {
+      "url": "https://www.ess-news.com/2025/11/25/battery-energy-storage-revenues-for-ancillary-services-fall-nearly-90-in-ercot/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "states.ts:(factor)"
+      ]
+    },
+    {
+      "url": "https://www.wri.org/insights/clean-energy-restrictive-siting-laws",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "states.ts:(factor)"
+      ]
+    },
+    {
+      "url": "https://www.utilitydive.com/news/pjm-interconnection-capacity-auction-data-center/808264/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "states.ts:(factor)"
+      ]
+    },
+    {
+      "url": "https://www.canarymedia.com/articles/solar/virginia-blocks-counties-from-banning-solar",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "states.ts:(factor)"
+      ]
+    },
+    {
+      "url": "https://www.yesenergy.com/blog/the-duck-curve-explained-impacts-renewable-energy-curtailments",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "states.ts:(factor)"
+      ]
+    },
+    {
+      "url": "https://www.cpuc.ca.gov/-/media/cpuc-website/divisions/energy-division/documents/resource-adequacy-homepage/resource-adequacy-compliance-materials/guides-and-resources/2026-ra-slice-of-day-filing-guide.pdf",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "states.ts:(factor)"
+      ]
+    },
+    {
+      "url": "https://legalclarity.org/californias-sb-100-renewable-energy-goals-and-compliance/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "states.ts:(factor)"
+      ]
+    },
+    {
+      "url": "https://blogs.law.columbia.edu/climatechange/2022/08/09/new-california-law-allows-state-to-bypass-local-restrictions-in-siting-large-scale-renewables",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "states.ts:(factor)"
+      ]
+    },
+    {
+      "url": "https://utahcleanenergy.org/why-rocky-mountain-powers-new-energy-plan-could-cost-utah-families-billions-more/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "states.ts:(factor)"
+      ]
+    },
+    {
+      "url": "https://utahcleanenergy.org/press-release/rocky-mountain-power-releases-draft-update-to-its-20-year-energy-plan/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "states.ts:(factor)"
+      ]
+    },
+    {
+      "url": "https://oppositionreport.org/reports/current/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "states.ts:(factor)"
+      ]
+    },
+    {
+      "url": "https://www.utilitydive.com/news/entergy-mississippi-readies-big-push-into-renewable-power-with-plans-to-add/609868/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "states.ts:(factor)"
+      ]
+    },
+    {
+      "url": "https://www.entergy.com/blog/entergys-news-solar-station-wildlife-mississippi",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "states.ts:(factor)"
+      ]
+    },
+    {
+      "url": "https://msindy.org/p/opponents-of-mississippis-largest",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "states.ts:(factor)"
+      ]
+    },
+    {
+      "url": "https://pv-magazine-usa.com/2026/05/01/srp-and-nextera-energy-resources-partner-on-massive-solar-and-storage-expansion/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "states.ts:(factor)"
+      ]
+    },
+    {
+      "url": "https://www.kjzz.org/the-show/2025-10-08/6-rural-arizona-towns-counties-have-limited-renewable-energy-projects-more-are-looking-into-it",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "states.ts:(factor)"
+      ]
+    },
+    {
+      "url": "https://www.nvenergy.com/publish/content/dam/nvenergy/brochures_arch/about-nvenergy/rates-regulatory/recent-regulatory-filings/irp/IRP-Volume-5.pdf",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "states.ts:(factor)"
+      ]
+    },
+    {
+      "url": "https://cnee.colostate.edu/wp-content/uploads/2025/07/NV-State-Brief_2025_Final.pdf",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "states.ts:(factor)"
+      ]
+    },
+    {
+      "url": "https://puc.nv.gov/Renewable_Energy/Portfolio_Standard",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "states.ts:(factor)"
+      ]
+    },
+    {
+      "url": "https://modoenergy.com/research/en/miso-bess-build-locations",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "states.ts:(factor)",
+        "states.ts:(factor)"
+      ]
+    },
+    {
+      "url": "https://www.pv-tech.org/illinois-signs-clean-energy-bill-will-drive-investments-for-solar-pv-battery-storage-and-vpps/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "states.ts:(factor)"
+      ]
+    },
+    {
+      "url": "https://ilenviro.org/gov-pritzker-signs-legislation-protecting-clean-energy-projects/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "states.ts:(factor)"
+      ]
+    },
+    {
+      "url": "https://www.kten.com/news/residents-push-back-against-bi-county-wind-farm/article_dee81108-1346-51bf-ade0-fdb31b17af96.html",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:TX/wind/Fannin-Lamar Wind Farm, a/k/a Big Tussle Wind Ranch (Fannin and Lamar Counties)"
+      ]
+    },
+    {
+      "url": "https://www.fayettecountyrecord.com/news/county-passes-resolution-against-wind-energy-development",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:TX/wind/Mustang Wind Project (Fayette County)"
+      ]
+    },
+    {
+      "url": "https://lonestarstandard.com/stories/536486831-residents-landowners-oppose-wind-project-in-callahan-eastland-counties",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:TX/wind/Ranchland Wind Project (Callahan and Eastland Counties)",
+        "contested:TX/battery/Ranchland Wind Project (Callahan and Eastland Counties)"
+      ]
+    },
+    {
+      "url": "https://insideclimatenews.org/news/30072018/aep-cancels-wind-catcher-largest-wind-farm-oklahoma-oil-gas-opposition-clean-power-plan/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:TX/wind/Wind Catcher Energy Connection Project (Donley and Gregg Counties)"
+      ]
+    },
+    {
+      "url": "https://climate.law.columbia.edu/sites/climate.law.columbia.edu/files/content/Blue%20Creek%20Real%20Properties%2C%20LLC%20v.%20US%20Dept%20of%20Treasury%20et%20al%20.pdf",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:TX/wind/Lane City Wind Project (Wharton County)"
+      ]
+    },
+    {
+      "url": "https://news4sanantonio.com/news/trouble-shooters/bandera-property-owners-claim-solar-farm-project-polluting-their-properties",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:TX/solar/Rio Lago Solar (Bandera County)"
+      ]
+    },
+    {
+      "url": "https://www.citizens-for-reasonable-regulation-of-renewable-energy.com/about",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:TX/solar/Stockyard Solar a/k/a Saddle House Solar (Franklin County)",
+        "contested:TX/battery/Stockyard Solar a/k/a Saddle House Solar (Franklin County)"
+      ]
+    },
+    {
+      "url": "https://www.newschannel10.com/2025/10/10/xcel-energy-withdraws-solar-farm-project-proposal-rolling-hills-area/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:TX/solar/Oneida 2 Solar (Potter County)"
+      ]
+    },
+    {
+      "url": "https://www.doi.gov/pressreleases/trump-administration-protects-us-national-security-pausing-offshore-wind-leases",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/wind/Coastal Virginia Offshore Wind Project (City of Virginia Beach)"
+      ]
+    },
+    {
+      "url": "https://www.pilotonline.com/2024/03/25/group-of-sandbridge-residents-oppose-wind-energy-cable-landing-as-avangrid-makes-another-pitch/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/wind/Kitty Hawk Wind Project Cable Landing (City of Virginia Beach)"
+      ]
+    },
+    {
+      "url": "https://virginianreview.com/209615/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/wind/Rocky Forge Wind (Botetourt County)"
+      ]
+    },
+    {
+      "url": "https://virginiabusiness.com/mecklenburg-ends-future-solar-projects/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/solar/Antlers Road Solar Farm (Mecklenburg County)"
+      ]
+    },
+    {
+      "url": "https://www.fauquier.com/news/planners-object-to-proposed-bealeton-solar-project-s-effect-on-farmland/article_bd5b9e02-a20c-11eb-8399-2be2563d3b5f.html?fbclid=IwAR1c6FWXH0Rws6Us0G_uTXivt8z19zbfOuBx03FxAOUu8L4-lxmANsoaXP4.",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/solar/Bealeton Solar Farm (Fauquier County)"
+      ]
+    },
+    {
+      "url": "https://www.thesussexsurrydispatch.com/news/blackwater-solar-project-defeated/article_ecd227da-2992-11ef-9a71-cfc79f605553.html",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/solar/Blackwater Solar Project (Sussex County)"
+      ]
+    },
+    {
+      "url": "https://pagevalleynews.com/urban-grid-withdraws-cape-solar-application-county-doesnt-anticipate-third-attempt/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/solar/Cape Solar Project (Page County)"
+      ]
+    },
+    {
+      "url": "https://www.windsorweekly.com/2023/03/03/isle-of-wight-supervisors-reject-zuni-solar-farm-form-energy-task-force/.",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/solar/Carver Solar (Isle of Wight County)"
+      ]
+    },
+    {
+      "url": "https://www.sovanow.com/articles/halifax-council-rejects-crawford-road-solar/.",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/solar/Crawford Road Solar (Halifax County)"
+      ]
+    },
+    {
+      "url": "https://www.sovanow.com/articles/halifax-county-planners-give-thumbs-down-to-solar-project/.",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/solar/Hillendale Solar (Halifax County)"
+      ]
+    },
+    {
+      "url": "https://www.dailypress.com/2023/03/17/james-city-county-supervisor-calls-for-pause-on-new-solar-projects/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/solar/James City County Solar Project (James City County)"
+      ]
+    },
+    {
+      "url": "https://www.heraldbulletin.com/news/local_news/indiana-supreme-court-wont-consider-lawsuit-against-lone-oak-solar/article_6cae63c0-42fe-11ec-b0c5-63e05883d814.html",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/solar/Lone Oak Agrisolar Project (Mecklenburg County)"
+      ]
+    },
+    {
+      "url": "https://www.farmvilleherald.com/2023/12/lack-of-a-solar-policy-in-buckingham-raises-confusion/.",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/solar/Mountain Pine Arvonia I and II (Buckingham County)"
+      ]
+    },
+    {
+      "url": "https://www.sovanow.com/articles/mecklenburg-planners-reject-dual-use-agrisolar-projects/.",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/solar/New Hope Agrisolar Project (Mecklenburg County)"
+      ]
+    },
+    {
+      "url": "https://www.insidenova.com/culpeper/culpeper-county-planning-commission-recommends-solar-farm-approval-in-contradictory-double-vote/article_8ef4c06a-11fa-11ee-8285-0b6520d41522.html",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/solar/North Ridge Solar (Culpeper County)"
+      ]
+    },
+    {
+      "url": "https://www.farmvilleherald.com/2024/01/future-unclear-for-new-leaf-solar-in-prince-edward-county/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/solar/Old Ridge Road Solar Project (Prince Edward County)"
+      ]
+    },
+    {
+      "url": "https://dailyprogress.com/news/community/orangenews/orange-county-solar-farm-may-have-met-its-match-the-social-media-influencers-next-door/article_6d7755f2-cc93-11ee-961b-8f7ecbcbd6c4.html",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/solar/Orange Road Solar Farm (Orange County)"
+      ]
+    },
+    {
+      "url": "https://newsadvance.com/news/community/new-era-progress/piney-river-solar-project-again-gets-denial-recommendation-from-amherst-commission/article_9d65f7c6-5e77-11ee-8390-cb256d3f44b5.html",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/solar/Piney River Solar Project (Amherst County)"
+      ]
+    },
+    {
+      "url": "https://www.wdbj7.com/2021/10/12/company-seeking-build-utility-scale-solar-farm-charlotte-county-faces-lawsuit",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/solar/Randolph Solar Project (Charlotte County)"
+      ]
+    },
+    {
+      "url": "https://www.sovanow.com/articles/facing-opposition-solar-project-postponed/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/solar/South Boston Solar G Development (Halifax County)"
+      ]
+    },
+    {
+      "url": "https://madrapp.com/articles/government/orange-co-pc-unanimously-recommends-denial-of-sunfish-solars-sup/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/solar/Sunfish Solar (Orange County)"
+      ]
+    },
+    {
+      "url": "https://www.nbc29.com/2023/11/09/fluvanna-county-defers-decision-put-solar-panels-huge-parcel-land/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/solar/White Oak Tree Solar (Fluvanna County)"
+      ]
+    },
+    {
+      "url": "https://cardinalnews.org/2024/07/03/developer-withdraws-application-for-solar-farm-in-washington-county/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/solar/Wolf Hills Solar (Washington County)"
+      ]
+    },
+    {
+      "url": "https://farmvilleherald.com/2025/03/gabriel-solar-goes-to-a-vote-county-makes-decision-on-project/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/solar/Gabriel Solar Project (Prince Edward County)",
+        "contested:VA/battery/Gabriel Solar Project (Prince Edward County)"
+      ]
+    },
+    {
+      "url": "https://www.ssentinel.com/deltaville-solar-proposal-fizzles-out/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/solar/Deltaville Solar (Middlesex County)"
+      ]
+    },
+    {
+      "url": "https://www.smithfieldtimes.com/2025/02/26/surry-supervisors-reject-sycamore-cross-solar-farm/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/solar/Sycamore Cross Solar (Isle of Wight and Surry Counties)"
+      ]
+    },
+    {
+      "url": "https://www.latimes.com/environment/story/2022-03-21/nobody-seems-to-like-this-california-wind-power-proposal",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:CA/wind/BW-IDEOL Offshore Wind Project (Santa Barbara County)"
+      ]
+    },
+    {
+      "url": "https://cademo.net/cademo-and-santa-ynez-chumash-2/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:CA/wind/CADEMO Offshore Wind Project (Santa Barbara County)"
+      ]
+    },
+    {
+      "url": "https://www.sbcounty.gov/uploads/lus/desert/deis-eir-volume1.pdf",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:CA/wind/Granite Mountain Wind Energy Project (San Bernardino County)"
+      ]
+    },
+    {
+      "url": "https://www.mercurynews.com/2013/05/07/homeowners-take-san-leandro-wind-turbine-battle-to-court/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:CA/wind/Halus Power Wind Turbine (Alameda County)"
+      ]
+    },
+    {
+      "url": "https://lostcoastoutpost.com/2024/mar/10/bear-river-tribal-council-joins-yurok-tribe-formal/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:CA/wind/Humboldt Wind Energy Area (Humboldt County)"
+      ]
+    },
+    {
+      "url": "https://www.columbian.com/news/2024/apr/08/slo-county-fishermen-sue-coastal-commission-offshore-wind-companies-weve-got-rights-here/.",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:CA/wind/Morro Bay Wind Area (San Luis Obispo County)"
+      ]
+    },
+    {
+      "url": "https://www.acgov.org/cda/planning/landuseprojects/documents/MulqueeneyRanch/Approval-package-PLN2024-00055-FINAL.pdf",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:CA/wind/Mulqueeney Ranch Wind Repowering Project (Alameda County)"
+      ]
+    },
+    {
+      "url": "https://vault.sierraclub.org/sierra/201303/wind-power-turbine-technology-birds.aspx",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:CA/wind/North Sky River Project (Kern County)"
+      ]
+    },
+    {
+      "url": "https://archive.epa.gov/region9/nepa/web/pdf/2013-03-04-shu-luuk-wind-proj-campo-indian-res-deis.pdf",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:CA/wind/Shu’luuk Wind Project, a/k/a Kumeyaay II (San Diego County)"
+      ]
+    },
+    {
+      "url": "https://santamariatimes.com/news/local/govt-and-politics/santa-barbara-county-supervisors-deny-appeals-approve-wind-energy-project/article_885b18dc-3bc6-5982-81e0-b7effea799c4.html",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:CA/wind/Strauss Wind Energy Project (Santa Barbara County)"
+      ]
+    },
+    {
+      "url": "https://www.northcoastjournal.com/NewsBlog/archives/2019/11/17/overflow-crowd-again-turns-out-for-public-hearing-on-controversial-wind-farm-proposal",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:CA/wind/Terra-Gen Wind Project (Humboldt County)"
+      ]
+    },
+    {
+      "url": "https://www.pleasantonweekly.com/news/2020/10/07/supervisor-candidates-urge-a-pause-on-livermore-solar-projects",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:CA/solar/Aramis Solar Project (Alameda County)"
+      ]
+    },
+    {
+      "url": "https://www.aratinasolar.com/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:CA/solar/Aratina Solar Center (Kern County)",
+        "contested:CA/battery/Aratina Solar Center (Kern County)"
+      ]
+    },
+    {
+      "url": "https://www.basinandrangewatch.org/Blythe.html",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:CA/solar/Blythe Mesa Solar Power Project (Riverside County)"
+      ]
+    },
+    {
+      "url": "https://www.forbes.com/sites/larrybell/2013/03/12/environmental-groups-strongly-endorse-none-of-the-above-energy-plans/?sh=22656bfe1e3e",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:CA/solar/Calico Solar Project (San Bernardino County)"
+      ]
+    },
+    {
+      "url": "https://www.energy.ca.gov/powerplant/solar-thermal/genesis-solar-energy-project",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:CA/solar/Genesis Solar Energy Project (Riverside County)"
+      ]
+    },
+    {
+      "url": "https://www.independentnews.com/news/regional_and_ca/alameda-county-supervisors-reject-friends-of-livermore-appeal-approve-grant-line-solar-1-project-in/article_bfd70d76-668a-11ed-a90c-d7492fc8e63e.html",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:CA/solar/Grant Line Solar Project (Alameda County)"
+      ]
+    },
+    {
+      "url": "https://holtvilletribune.com/2021/10/31/jacumba-residents-on-their-own-with-projects/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:CA/solar/Jacumba Solar Project (San Diego County)"
+      ]
+    },
+    {
+      "url": "https://cleantechnica.com/2018/07/12/8minutenergy-turns-on-phases-1-2-of-328-megawatt-mount-signal-3-solar-farm/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:CA/solar/Mount Signal Solar Farm (Imperial County)"
+      ]
+    },
+    {
+      "url": "https://www.pressdemocrat.com/article/napa/solar-napa-electricity-laketricity/.",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:CA/solar/Napa Sanitation District Solar Farm (Napa County)"
+      ]
+    },
+    {
+      "url": "https://www.mercurynews.com/2017/07/21/giant-solar-project-reduced-due-to-environmentalists-opposition/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:CA/solar/Panoche Valley Solar Farm (San Benito County)"
+      ]
+    },
+    {
+      "url": "https://www.blm.gov/press-release/blm-rejects-solar-development-silurian-valley",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:CA/solar/Silurian Valley Solar Development (San Bernandino County)"
+      ]
+    },
+    {
+      "url": "https://www.latimes.com/environment/story/2023-02-06/mojave-desert-solar-energy-project-angers-conservationists",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:CA/solar/Soda Mountain Solar Project (San Bernardino County)"
+      ]
+    },
+    {
+      "url": "https://www.pleasantonweekly.com/news/2021/05/20/sunwalker-pulls-the-plug-on-livermore-solar-project/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:CA/solar/SunWalker Solar Project (Alameda County)"
+      ]
+    },
+    {
+      "url": "https://www.abridged.org/news/sacramento-county-leaders-approve-solar-farm/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:CA/solar/Coyote Creek Agrivoltaics Farm (Sacramento County)",
+        "contested:CA/battery/Coyote Creek Agrivoltaics Farm (Sacramento County)"
+      ]
+    },
+    {
+      "url": "https://norcalpublicmedia.org/2023082190758/news-feed/local-leaders-activists-mobilizing-to-block-ft-ross-power-plant",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:CA/battery/Fort Ross Pumped Storage Project (Sonoma County)"
+      ]
+    },
+    {
+      "url": "https://signalscv.com/2023/10/acton-residents-sue-over-energy-storage-project/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:CA/battery/Humidor Battery Energy Storage Project (Los Angeles County)"
+      ]
+    },
+    {
+      "url": "https://www.change.org/p/stop-the-installation-of-the-seguro-battery-energy-storage-system-bess-in-escondido-ca",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:CA/battery/Seguro Battery Storage Project (San Diego County)"
+      ]
+    },
+    {
+      "url": "https://www.wdam.com/2023/07/26/lamar-county-residents-plan-town-hall-push-back-against-proposed-solar-farm/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:MS/solar/Minkar Solar Farm (Lamar County)"
+      ]
+    },
+    {
+      "url": "https://www.wlbt.com/2025/08/13/hearing-proposed-hinds-county-solar-farm-held-public-service-commission/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:MS/solar/Soul City Solar (Hinds County)",
+        "contested:MS/battery/Soul City Solar (Hinds County)"
+      ]
+    },
+    {
+      "url": "https://kjzz.org/content/1866630/hydropower-project-black-mesa-navajo-nation-draws-opponents",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:AZ/battery/Black Mesa Pumped Storage Project (Apache and Navajo Counties)"
+      ]
+    },
+    {
+      "url": "https://governorswindenergycoalition.org/blm-rejects-massive-nev-wind-project",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:NV/wind/Crescent Peak Wind Project (Clark County)"
+      ]
+    },
+    {
+      "url": "https://www.eenews.net/articles/nev-monument-will-shield-sacred-tribal-land-from-renewables/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:NV/wind/Kulning Wind Energy Project (Clark County)"
+      ]
+    },
+    {
+      "url": "http://lasvegassun.com/news/2015/nov/06/citing-flawed-environmental-report-judge-sends-sea/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:NV/wind/Searchlight Wind Project (Clark County)"
+      ]
+    },
+    {
+      "url": "https://www.reviewjournal.com/business/energy/wind-energy-project-gearing-up-after-lawsuit-settled",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:NV/wind/Spring Valley Wind Farm (White Pine County)"
+      ]
+    },
+    {
+      "url": "https://www.eenews.net/articles/biden-to-create-national-monuments-in-nevada-and-texas/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:NV/solar/Angora Solar Project (Clark County)"
+      ]
+    },
+    {
+      "url": "https://www.basinandrangewatch.org/BeattySolar_PD_20210514.pdf",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:NV/solar/Beatty Energy Center Project (Nye County)"
+      ]
+    },
+    {
+      "url": "https://pucweb1.state.nv.us/PDF/AxImages/DOCKETS_2020_THRU_PRESENT/2022-1/15008.pdf",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:NV/solar/Bonnie Clare Solar Project (Nye County)"
+      ]
+    },
+    {
+      "url": "https://www.reviewjournal.com/news/politics-and-government/nevada/feds-sued-over-bundys-cattle-solar-development-near-las-vegas-2904722/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:NV/solar/Clark County Solar Development (Clark County)"
+      ]
+    },
+    {
+      "url": "https://www.blm.gov/press-release/blm-approves-rough-hat-clark-solar-project",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:NV/solar/Rough Hat Clark Solar Project (Clark County)"
+      ]
+    },
+    {
+      "url": "https://pvtimes.com/news/solar-project-discussion-riles-pahrump-public-105700",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:NV/solar/Rough Hat Nye County Solar Project (Nye County)"
+      ]
+    },
+    {
+      "url": "https://www.basinandrangewatch.org/Sawtooth_PD_20210414.pdf",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:NV/solar/Sawtooth Energy Center Project (Nye County)"
+      ]
+    },
+    {
+      "url": "https://www.reviewjournal.com/news/politics-and-government/plans-scrapped-for-huge-solar-array-north-of-las-vegas-2405042/.",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:NV/solar/Solar Partners VII (Carson City)"
+      ]
+    },
+    {
+      "url": "https://www.enelgreenpower.com/our-projects/under-construction/alta-farms-wind-project",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:IL/wind/Alta Wind Farm (DeWitt County)"
+      ]
+    },
+    {
+      "url": "https://illinoisnewsroom.org/in-piatt-county-a-zoning-board-votes-against-a-wind-farm-but-the-county-board-will-have-the-final-say/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:IL/wind/Goose Creek Wind Project / Prosperity Wind Farm (Piatt County)"
+      ]
+    },
+    {
+      "url": "https://www.globenewswire.com/en/news-release/2020/07/30/2070471/0/en/Harvest-Ridge-Wind-Farm-is-Generating-Clean-Energy-in-Douglas-County.html.",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:IL/wind/Harvest Ridge Wind Farm (Douglas County)"
+      ]
+    },
+    {
+      "url": "https://www.wind-watch.org/news/2015/01/23/7600-acre-wind-farm-petition-falls-flat-in-logan-county/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:IL/wind/HillTopper Wind Farm (Logan County)"
+      ]
+    },
+    {
+      "url": "https://www.journal-advocate.com/2021/11/04/nextera-tri-state-cut-the-ribbon-on-niyol-wind-farm/.",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:IL/wind/Niyol Wind Farm (Logan County)"
+      ]
+    },
+    {
+      "url": "https://www.wjbc.com/2015/07/17/livingston-county-rejects-wind-farm/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:IL/wind/Pleasant Ridge Wind Farm (Livingston County)"
+      ]
+    },
+    {
+      "url": "https://www.wandtv.com/news/lawsuit-possible-in-wind-farm-controversy/article_51f6cc7a-66c0-11ed-b1f0-23f9e1111d03.html",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:IL/wind/Top Hat Wind Project (Logan County)"
+      ]
+    },
+    {
+      "url": "https://www.wqad.com/article/news/local/community-members-frustrated-mercer-county-solar-farm-proposal/526-fa76dae9-3d11-4e7a-a233-a3db5f77c75b",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:IL/solar/Alexis Solar Project (Mercer County)"
+      ]
+    },
+    {
+      "url": "https://www.shawlocal.com/kendall-county-now/2023/05/03/sandwich-city-council-voices-opposition-to-proposed-solar-farm-along-pratt-road/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:IL/solar/Amp Solar’s Pratt Road Solar Garden (Dekalb County)"
+      ]
+    },
+    {
+      "url": "https://www.cfact.org/2023/03/11/illinois-town-nixes-solar-desert/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:IL/solar/Bundleflower Solar LLC (Livingston County)"
+      ]
+    },
+    {
+      "url": "https://www.rrstar.com/story/news/local/2024/08/14/rockford-city-council-plans-to-file-objection-to-proposed-solar-farm/74786370007/.",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:IL/solar/Indigo Solar Project (Winnebago County)"
+      ]
+    },
+    {
+      "url": "https://www.shawlocal.com/bureau-county-republican/news/government/2023/01/17/princeton-council-tables-solar-array-resolution-citing-location-and-expansion-concerns/",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:IL/solar/Princeton Technology Park Solar Array (Buerau County)"
+      ]
+    },
+    {
+      "url": "http://freepressnewspapers.com/content/custer-solar-project-voted-down-will-county-land-use",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:IL/solar/Will County Solar Farm (Will County)"
+      ]
+    },
+    {
+      "url": "https://citizenportal.ai/articles/6147297/Boone-County/Illinois/Board-OKs-252-MW-Belvedere-Solar-project-after-company-offers-additional-community-benefits",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:IL/solar/Belvidere Solar (Boone County)"
+      ]
+    },
+    {
+      "url": "https://virginiamercury.com/2025/07/02/energy-demands-regulations-and-federal-funding-challenge-virginia-clean-economy-act/",
+      "status": 403,
+      "category": "suspicious",
+      "usedBy": [
+        "states.ts:(factor)"
+      ]
+    },
+    {
+      "url": "https://www.energylawinfo.com/2025/11/california-battery-energy-storage-systems-legislation-update-safety-requirements-and-ab-205-opt-in-procedures-amended/",
+      "status": 429,
+      "category": "suspicious",
+      "usedBy": [
+        "states.ts:(factor)"
+      ]
+    },
+    {
+      "url": "https://www.texasobserver.org/inside-the-coordinated-attack-on-a-north-texas-wind-farm",
+      "status": 403,
+      "category": "suspicious",
+      "usedBy": [
+        "contested:TX/wind/Bluegrove Wind Project (Clay County)",
+        "contested:TX/wind/Byers Wind Project (Clay County)"
+      ]
+    },
+    {
+      "url": "https://www.kxan.com/news/local/elgin/669-million-solar-farm-plan-rejected-for-incentives-in-bastrop-county/",
+      "status": 403,
+      "category": "suspicious",
+      "usedBy": [
+        "contested:TX/solar/Solar Proponent LLC (Bastrop County)"
+      ]
+    },
+    {
+      "url": "https://www.texomashomepage.com/news/local-news/hardeman-county-oks-solar-farm-tax-break-amid-protests/.",
+      "status": 403,
+      "category": "suspicious",
+      "usedBy": [
+        "contested:TX/solar/Lazy U Solar 1 (Hardeman County)"
+      ]
+    },
+    {
+      "url": "https://www.wric.com/news/prince-george/prince-george-residents-voice-opposition-to-proposed-solar-farm/.",
+      "status": 403,
+      "category": "suspicious",
+      "usedBy": [
+        "contested:VA/solar/Bakers Pond Solar Farm (Prince George County)"
+      ]
+    },
+    {
+      "url": "https://www.vpm.org/2024-08-02/hanover-county-solar-farm-facilities",
+      "status": 403,
+      "category": "suspicious",
+      "usedBy": [
+        "contested:VA/solar/North Anna River Solar Project (Hanover County)"
+      ]
+    },
+    {
+      "url": "https://www.virginiamercury.com/2019/04/10/biggest-piece-of-spotsylvania-solar-farm-approved/",
+      "status": 403,
+      "category": "suspicious",
+      "usedBy": [
+        "contested:VA/solar/Spotsylvania Solar Energy Center (Spotsylvania County)"
+      ]
+    },
+    {
+      "url": "https://www.lakeconews.com/news/71836-blm-denies-permit-for-walker-ridge-wind-energy-project.",
+      "status": 403,
+      "category": "suspicious",
+      "usedBy": [
+        "contested:CA/wind/Walker Ridge Wind Energy Project (Lake County)"
+      ]
+    },
+    {
+      "url": "https://www.wind-watch.org/news/2012/02/24/wilson-creek-power-project-abandoned/",
+      "status": 403,
+      "category": "suspicious",
+      "usedBy": [
+        "contested:NV/wind/Wilson Creek Wind Project (Lincoln County)"
+      ]
+    },
+    {
+      "url": "https://www.wcia.com/news/wind-farm-building-permit-approved-in-ford-county/.",
+      "status": 403,
+      "category": "suspicious",
+      "usedBy": [
+        "contested:IL/wind/Ford Ridge Wind Farm (Ford County)"
+      ]
+    },
+    {
+      "url": "https://www.centralillinoisproud.com/news/local-news/no-solar-farm-coming-to-tazewell-county/",
+      "status": 403,
+      "category": "suspicious",
+      "usedBy": [
+        "contested:IL/solar/SolarStone Partners Solar Farm (Tazewell County)"
+      ]
+    }
+  ]
+}
