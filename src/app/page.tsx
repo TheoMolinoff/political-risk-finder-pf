@@ -5,6 +5,7 @@ import { STATES } from '@/data/states';
 import { assess } from '@/lib/scoring';
 import type { RiskLevel, Technology } from '@/lib/types';
 import { TierCard } from '@/components/TierCard';
+import { USCountyMap } from '@/components/USCountyMap';
 
 const TECHNOLOGIES: { id: Technology; label: string }[] = [
   { id: 'wind', label: 'Wind' },
@@ -127,6 +128,13 @@ export default function Home() {
               {result.tiers.map((tier) => (
                 <TierCard key={tier.tier} result={tier} tech={result.technology} />
               ))}
+            </div>
+
+            <div className="mt-8 border-t border-slate-200 pt-6">
+              <h2 className="mb-1 text-sm font-semibold uppercase tracking-wide text-slate-500">
+                Contested {result.technology} projects — {stateRecord.name}
+              </h2>
+              <USCountyMap stateCode={selectedStateCode} tech={result.technology} />
             </div>
           </section>
         ) : (
