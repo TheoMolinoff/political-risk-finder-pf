@@ -1,0 +1,1825 @@
+{
+  "_meta": {
+    "dataset": "Sabin Center Opposition Report 2025 — Contested Projects (through Dec 2024)",
+    "source": "https://oppositionreport.org",
+    "generatedBy": "scripts/derive-contested.ts",
+    "note": "Projects grouped by state and technology. fipsByTech lists county FIPS codes with >=1 contested project, for map shading. Multi-county projects credited to each county."
+  },
+  "states": {
+    "TX": {
+      "projects": {
+        "wind": [
+          {
+            "title": "Bluegrove Wind Project (Clay County)",
+            "counties": [
+              "Clay County"
+            ],
+            "fips": [
+              "48077"
+            ],
+            "status": "Canceled",
+            "cancelled": "2018",
+            "capacity": "100"
+          },
+          {
+            "title": "Byers Wind Project (Clay County)",
+            "counties": [
+              "Clay County"
+            ],
+            "fips": [
+              "48077"
+            ],
+            "status": "Canceled",
+            "cancelled": "2018",
+            "capacity": "200"
+          },
+          {
+            "title": "Fannin-Lamar Wind Farm, a/k/a Big Tussle Wind Ranch (Fannin and Lamar Counties)",
+            "counties": [
+              "Fannin County",
+              "Lamar County"
+            ],
+            "fips": [
+              "48147",
+              "48277"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": ""
+          },
+          {
+            "title": "Horse Hollow Wind Energy Center (Nolan and Taylor Counties)",
+            "counties": [
+              "Nolan County",
+              "Taylor County"
+            ],
+            "fips": [
+              "48353",
+              "48441"
+            ],
+            "status": "Operational",
+            "cancelled": "",
+            "capacity": "735.5"
+          },
+          {
+            "title": "Mustang Wind Project (Fayette County)",
+            "counties": [
+              "Fayette County"
+            ],
+            "fips": [
+              "48149"
+            ],
+            "status": "Unknown",
+            "cancelled": "",
+            "capacity": "250"
+          },
+          {
+            "title": "Ranchland Wind Project (Callahan and Eastland Counties)",
+            "counties": [
+              "Callahan County",
+              "Eastland County"
+            ],
+            "fips": [
+              "48059",
+              "48133"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "354"
+          },
+          {
+            "title": "Wind Catcher Energy Connection Project (Donley and Gregg Counties)",
+            "counties": [
+              "Donley County",
+              "Gregg County"
+            ],
+            "fips": [
+              "48129",
+              "48183"
+            ],
+            "status": "Canceled",
+            "cancelled": "2018",
+            "capacity": "2000"
+          },
+          {
+            "title": "Lane City Wind Project (Wharton County)",
+            "counties": [
+              "Wharton County"
+            ],
+            "fips": [
+              "48481"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "203"
+          }
+        ],
+        "solar": [
+          {
+            "title": "Hopkins Energy LLC’s Solar Project (Hopkins County)",
+            "counties": [
+              "Hopkins County"
+            ],
+            "fips": [
+              "48223"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": ""
+          },
+          {
+            "title": "Rio Lago Solar (Bandera County)",
+            "counties": [
+              "Bandera County"
+            ],
+            "fips": [
+              "48019"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "123"
+          },
+          {
+            "title": "Solar Proponent LLC (Bastrop County)",
+            "counties": [
+              "Bastrop County"
+            ],
+            "fips": [
+              "48021"
+            ],
+            "status": "Canceled",
+            "cancelled": "2022",
+            "capacity": ""
+          },
+          {
+            "title": "Stockyard Solar a/k/a Saddle House Solar (Franklin County)",
+            "counties": [
+              "Franklin County"
+            ],
+            "fips": [
+              "48159"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "280"
+          },
+          {
+            "title": "Lazy U Solar 1 (Hardeman County)",
+            "counties": [
+              "Hardeman County"
+            ],
+            "fips": [
+              "48197"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "200"
+          },
+          {
+            "title": "Oneida 2 Solar (Potter County)",
+            "counties": [
+              "Potter County"
+            ],
+            "fips": [
+              "48375"
+            ],
+            "status": "Canceled",
+            "cancelled": "2025",
+            "capacity": "254"
+          }
+        ],
+        "battery": [
+          {
+            "title": "Ranchland Wind Project (Callahan and Eastland Counties)",
+            "counties": [
+              "Callahan County",
+              "Eastland County"
+            ],
+            "fips": [
+              "48059",
+              "48133"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "354"
+          },
+          {
+            "title": "Stockyard Solar a/k/a Saddle House Solar (Franklin County)",
+            "counties": [
+              "Franklin County"
+            ],
+            "fips": [
+              "48159"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "280"
+          }
+        ]
+      },
+      "fipsByTech": {
+        "wind": [
+          "48059",
+          "48077",
+          "48129",
+          "48133",
+          "48147",
+          "48149",
+          "48183",
+          "48277",
+          "48353",
+          "48441",
+          "48481"
+        ],
+        "solar": [
+          "48019",
+          "48021",
+          "48159",
+          "48197",
+          "48223",
+          "48375"
+        ],
+        "battery": [
+          "48059",
+          "48133",
+          "48159"
+        ]
+      }
+    },
+    "VA": {
+      "projects": {
+        "wind": [
+          {
+            "title": "Coastal Virginia Offshore Wind Project (City of Virginia Beach)",
+            "counties": [
+              "Virginia Beach city"
+            ],
+            "fips": [
+              "51810"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "2600"
+          },
+          {
+            "title": "Kitty Hawk Wind Project Cable Landing (City of Virginia Beach)",
+            "counties": [
+              "Virginia Beach city"
+            ],
+            "fips": [
+              "51810"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "3500"
+          },
+          {
+            "title": "Rocky Forge Wind (Botetourt County)",
+            "counties": [
+              "Botetourt County"
+            ],
+            "fips": [
+              "51023"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "75"
+          }
+        ],
+        "solar": [
+          {
+            "title": "7 Bridges Solar Project (Mecklenburg County)",
+            "counties": [
+              "Mecklenburg County"
+            ],
+            "fips": [
+              "51117"
+            ],
+            "status": "Canceled",
+            "cancelled": "2024",
+            "capacity": "105"
+          },
+          {
+            "title": "Antlers Road Solar Farm (Mecklenburg County)",
+            "counties": [
+              "Mecklenburg County"
+            ],
+            "fips": [
+              "51117"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": ""
+          },
+          {
+            "title": "Axton Solar Project (Henry County)",
+            "counties": [
+              "Henry County"
+            ],
+            "fips": [
+              "51089"
+            ],
+            "status": "Canceled",
+            "cancelled": "2023",
+            "capacity": ""
+          },
+          {
+            "title": "Bakers Pond Solar Farm (Prince George County)",
+            "counties": [
+              "Prince George County"
+            ],
+            "fips": [
+              "51149"
+            ],
+            "status": "Canceled",
+            "cancelled": "2023",
+            "capacity": "100"
+          },
+          {
+            "title": "Bealeton Solar Farm (Fauquier County)",
+            "counties": [
+              "Fauquier County"
+            ],
+            "fips": [
+              "51061"
+            ],
+            "status": "Canceled",
+            "cancelled": "2021",
+            "capacity": ""
+          },
+          {
+            "title": "Blackwater Solar Project (Sussex County)",
+            "counties": [
+              "Sussex County"
+            ],
+            "fips": [
+              "51183"
+            ],
+            "status": "Canceled",
+            "cancelled": "2024",
+            "capacity": "600"
+          },
+          {
+            "title": "Cape Solar Project (Page County)",
+            "counties": [
+              "Page County"
+            ],
+            "fips": [
+              "51139"
+            ],
+            "status": "Canceled",
+            "cancelled": "2022",
+            "capacity": ""
+          },
+          {
+            "title": "Cartersville Solar (Powhatan County)",
+            "counties": [
+              "Powhatan County"
+            ],
+            "fips": [
+              "51145"
+            ],
+            "status": "Canceled",
+            "cancelled": "2019",
+            "capacity": ""
+          },
+          {
+            "title": "Carver Solar (Isle of Wight County)",
+            "counties": [
+              "Isle of Wight County"
+            ],
+            "fips": [
+              "51093"
+            ],
+            "status": "Canceled",
+            "cancelled": "2023",
+            "capacity": "71"
+          },
+          {
+            "title": "Crawford Road Solar (Halifax County)",
+            "counties": [
+              "Halifax County"
+            ],
+            "fips": [
+              "51083"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "5"
+          },
+          {
+            "title": "Cricket Solar (Culpepper County)",
+            "counties": [
+              "Culpeper County"
+            ],
+            "fips": [
+              "51047"
+            ],
+            "status": "Canceled",
+            "cancelled": "2019",
+            "capacity": ""
+          },
+          {
+            "title": "Cunningham Springs Solar (Orange County)",
+            "counties": [
+              "Orange County"
+            ],
+            "fips": [
+              "51137"
+            ],
+            "status": "Canceled",
+            "cancelled": "2024",
+            "capacity": ""
+          },
+          {
+            "title": "Hillendale Solar (Halifax County)",
+            "counties": [
+              "Halifax County"
+            ],
+            "fips": [
+              "51083"
+            ],
+            "status": "Unknown",
+            "cancelled": "",
+            "capacity": "102"
+          },
+          {
+            "title": "James City County Solar Project (James City County)",
+            "counties": [
+              "James City County"
+            ],
+            "fips": [
+              "51095"
+            ],
+            "status": "Canceled",
+            "cancelled": "2023",
+            "capacity": "4.75"
+          },
+          {
+            "title": "Lily Pond Solar (Dinwiddie County)",
+            "counties": [
+              "Dinwiddie County"
+            ],
+            "fips": [
+              "51053"
+            ],
+            "status": "Canceled",
+            "cancelled": "2021",
+            "capacity": "80"
+          },
+          {
+            "title": "Lone Oak Agrisolar Project (Mecklenburg County)",
+            "counties": [
+              "Mecklenburg County"
+            ],
+            "fips": [
+              "51117"
+            ],
+            "status": "Canceled",
+            "cancelled": "2023",
+            "capacity": ""
+          },
+          {
+            "title": "Maroon Solar (Culpeper County)",
+            "counties": [
+              "Culpeper County"
+            ],
+            "fips": [
+              "51047"
+            ],
+            "status": "Canceled",
+            "cancelled": "2023",
+            "capacity": "149"
+          },
+          {
+            "title": "Monarch Solar Project (Greensville County)",
+            "counties": [
+              "Greensville County"
+            ],
+            "fips": [
+              "51081"
+            ],
+            "status": "Canceled",
+            "cancelled": "2022",
+            "capacity": "123"
+          },
+          {
+            "title": "Mountain Pine Arvonia I and II (Buckingham County)",
+            "counties": [
+              "Buckingham County"
+            ],
+            "fips": [
+              "51029"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "80"
+          },
+          {
+            "title": "New Hope Agrisolar Project (Mecklenburg County)",
+            "counties": [
+              "Mecklenburg County"
+            ],
+            "fips": [
+              "51117"
+            ],
+            "status": "Canceled",
+            "cancelled": "2023",
+            "capacity": ""
+          },
+          {
+            "title": "North Anna River Solar Project (Hanover County)",
+            "counties": [
+              "Hanover County"
+            ],
+            "fips": [
+              "51085"
+            ],
+            "status": "Canceled",
+            "cancelled": "2024",
+            "capacity": "72"
+          },
+          {
+            "title": "North Ridge Solar (Culpeper County)",
+            "counties": [
+              "Culpeper County"
+            ],
+            "fips": [
+              "51047"
+            ],
+            "status": "Canceled",
+            "cancelled": "2023",
+            "capacity": "26"
+          },
+          {
+            "title": "Old Ridge Road Solar Project (Prince Edward County)",
+            "counties": [
+              "Prince Edward County"
+            ],
+            "fips": [
+              "51147"
+            ],
+            "status": "Canceled",
+            "cancelled": "2024",
+            "capacity": "3"
+          },
+          {
+            "title": "Orange Road Solar Farm (Orange County)",
+            "counties": [
+              "Orange County"
+            ],
+            "fips": [
+              "51137"
+            ],
+            "status": "Canceled",
+            "cancelled": "2024",
+            "capacity": "5"
+          },
+          {
+            "title": "Piney River Solar Project (Amherst County)",
+            "counties": [
+              "Amherst County"
+            ],
+            "fips": [
+              "51009"
+            ],
+            "status": "Canceled",
+            "cancelled": "2024",
+            "capacity": "50"
+          },
+          {
+            "title": "Randolph Solar Project (Charlotte County)",
+            "counties": [
+              "Charlotte County"
+            ],
+            "fips": [
+              "51037"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "800"
+          },
+          {
+            "title": "Rocky Ford Solar Energy Project (Henry County)",
+            "counties": [
+              "Henry County"
+            ],
+            "fips": [
+              "51089"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "90"
+          },
+          {
+            "title": "South Boston Solar G Development (Halifax County)",
+            "counties": [
+              "Halifax County"
+            ],
+            "fips": [
+              "51083"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "5"
+          },
+          {
+            "title": "Spotsylvania Solar Energy Center (Spotsylvania County)",
+            "counties": [
+              "Spotsylvania County"
+            ],
+            "fips": [
+              "51177"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": ""
+          },
+          {
+            "title": "Sunfish Solar (Orange County)",
+            "counties": [
+              "Orange County"
+            ],
+            "fips": [
+              "51137"
+            ],
+            "status": "Canceled",
+            "cancelled": "2024",
+            "capacity": "80"
+          },
+          {
+            "title": "White Oak Tree Solar (Fluvanna County)",
+            "counties": [
+              "Fluvanna County"
+            ],
+            "fips": [
+              "51065"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "38"
+          },
+          {
+            "title": "Wolf Hills Solar (Washington County)",
+            "counties": [
+              "Washington County"
+            ],
+            "fips": [
+              "51191"
+            ],
+            "status": "Canceled",
+            "cancelled": "2024",
+            "capacity": "262"
+          },
+          {
+            "title": "Gabriel Solar Project (Prince Edward County)",
+            "counties": [
+              "Prince Edward County"
+            ],
+            "fips": [
+              "51147"
+            ],
+            "status": "Canceled",
+            "cancelled": "2025",
+            "capacity": "200"
+          },
+          {
+            "title": "Almeda Solar Grazing Center (Fauquier County)",
+            "counties": [
+              "Fauquier County"
+            ],
+            "fips": [
+              "51061"
+            ],
+            "status": "Canceled",
+            "cancelled": "2025",
+            "capacity": "90"
+          },
+          {
+            "title": "Deltaville Solar (Middlesex County)",
+            "counties": [
+              "Middlesex County"
+            ],
+            "fips": [
+              "51119"
+            ],
+            "status": "Canceled",
+            "cancelled": "2025",
+            "capacity": "20"
+          },
+          {
+            "title": "Sycamore Cross Solar (Isle of Wight and Surry Counties)",
+            "counties": [
+              "Isle of Wight County",
+              "Surry County"
+            ],
+            "fips": [
+              "51093",
+              "51181"
+            ],
+            "status": "Canceled",
+            "cancelled": "2025",
+            "capacity": "240"
+          }
+        ],
+        "battery": [
+          {
+            "title": "Gabriel Solar Project (Prince Edward County)",
+            "counties": [
+              "Prince Edward County"
+            ],
+            "fips": [
+              "51147"
+            ],
+            "status": "Canceled",
+            "cancelled": "2025",
+            "capacity": "200"
+          }
+        ]
+      },
+      "fipsByTech": {
+        "wind": [
+          "51023",
+          "51810"
+        ],
+        "solar": [
+          "51009",
+          "51029",
+          "51037",
+          "51047",
+          "51053",
+          "51061",
+          "51065",
+          "51081",
+          "51083",
+          "51085",
+          "51089",
+          "51093",
+          "51095",
+          "51117",
+          "51119",
+          "51137",
+          "51139",
+          "51145",
+          "51147",
+          "51149",
+          "51177",
+          "51181",
+          "51183",
+          "51191"
+        ],
+        "battery": [
+          "51147"
+        ]
+      }
+    },
+    "CA": {
+      "projects": {
+        "wind": [
+          {
+            "title": "Altamont Pass Wind Resource Area First-Generation Wind Farms (Alameda and Contra Costa Counties)",
+            "counties": [
+              "Alameda County",
+              "Contra Costa County"
+            ],
+            "fips": [
+              "06001",
+              "06013"
+            ],
+            "status": "Unknown",
+            "cancelled": "",
+            "capacity": ""
+          },
+          {
+            "title": "BW-IDEOL Offshore Wind Project (Santa Barbara County)",
+            "counties": [
+              "Santa Barbara County"
+            ],
+            "fips": [
+              "06083"
+            ],
+            "status": "Canceled",
+            "cancelled": "",
+            "capacity": "40"
+          },
+          {
+            "title": "CADEMO Offshore Wind Project (Santa Barbara County)",
+            "counties": [
+              "Santa Barbara County"
+            ],
+            "fips": [
+              "06083"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "60"
+          },
+          {
+            "title": "Fountain Wind Project (Shasta County)",
+            "counties": [
+              "Shasta County"
+            ],
+            "fips": [
+              "06089"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "200"
+          },
+          {
+            "title": "Granite Mountain Wind Energy Project (San Bernardino County)",
+            "counties": [
+              "San Bernardino County"
+            ],
+            "fips": [
+              "06071"
+            ],
+            "status": "Canceled",
+            "cancelled": "2013",
+            "capacity": "84"
+          },
+          {
+            "title": "Halus Power Wind Turbine (Alameda County)",
+            "counties": [
+              "Alameda County"
+            ],
+            "fips": [
+              "06001"
+            ],
+            "status": "Canceled",
+            "cancelled": "2013",
+            "capacity": ""
+          },
+          {
+            "title": "Humboldt Wind Energy Area (Humboldt County)",
+            "counties": [
+              "Humboldt County"
+            ],
+            "fips": [
+              "06023"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": ""
+          },
+          {
+            "title": "Jawbone Wind Energy (Kern County)",
+            "counties": [
+              "Kern County"
+            ],
+            "fips": [
+              "06029"
+            ],
+            "status": "Unknown",
+            "cancelled": "",
+            "capacity": "339"
+          },
+          {
+            "title": "Morro Bay Wind Area (San Luis Obispo County)",
+            "counties": [
+              "San Luis Obispo County"
+            ],
+            "fips": [
+              "06079"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": ""
+          },
+          {
+            "title": "Mulqueeney Ranch Wind Repowering Project (Alameda County)",
+            "counties": [
+              "Alameda County"
+            ],
+            "fips": [
+              "06001"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "80"
+          },
+          {
+            "title": "North Sky River Project (Kern County)",
+            "counties": [
+              "Kern County"
+            ],
+            "fips": [
+              "06029"
+            ],
+            "status": "Operational",
+            "cancelled": "",
+            "capacity": "162"
+          },
+          {
+            "title": "Shu’luuk Wind Project, a/k/a Kumeyaay II (San Diego County)",
+            "counties": [
+              "San Diego County"
+            ],
+            "fips": [
+              "06073"
+            ],
+            "status": "Canceled",
+            "cancelled": "2014",
+            "capacity": "250"
+          },
+          {
+            "title": "Strauss Wind Energy Project (Santa Barbara County)",
+            "counties": [
+              "Santa Barbara County"
+            ],
+            "fips": [
+              "06083"
+            ],
+            "status": "Operational",
+            "cancelled": "",
+            "capacity": ""
+          },
+          {
+            "title": "Terra-Gen Wind Project (Humboldt County)",
+            "counties": [
+              "Humboldt County"
+            ],
+            "fips": [
+              "06023"
+            ],
+            "status": "Canceled",
+            "cancelled": "2019",
+            "capacity": ""
+          },
+          {
+            "title": "Walker Ridge Wind Energy Project (Lake County)",
+            "counties": [
+              "Lake County"
+            ],
+            "fips": [
+              "06033"
+            ],
+            "status": "Canceled",
+            "cancelled": "2022",
+            "capacity": ""
+          }
+        ],
+        "solar": [
+          {
+            "title": "Aramis Solar Project (Alameda County)",
+            "counties": [
+              "Alameda County"
+            ],
+            "fips": [
+              "06001"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": ""
+          },
+          {
+            "title": "Aratina Solar Center (Kern County)",
+            "counties": [
+              "Kern County"
+            ],
+            "fips": [
+              "06029"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "1130"
+          },
+          {
+            "title": "Blythe Mesa Solar Power Project (Riverside County)",
+            "counties": [
+              "Riverside County"
+            ],
+            "fips": [
+              "06065"
+            ],
+            "status": "Unknown",
+            "cancelled": "",
+            "capacity": "465"
+          },
+          {
+            "title": "Calico Solar Project (San Bernardino County)",
+            "counties": [
+              "San Bernardino County"
+            ],
+            "fips": [
+              "06071"
+            ],
+            "status": "Canceled",
+            "cancelled": "2013",
+            "capacity": "663.5"
+          },
+          {
+            "title": "Genesis Solar Energy Project (Riverside County)",
+            "counties": [
+              "Riverside County"
+            ],
+            "fips": [
+              "06065"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "250"
+          },
+          {
+            "title": "Grant Line Solar Project (Alameda County)",
+            "counties": [
+              "Alameda County"
+            ],
+            "fips": [
+              "06001"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "2"
+          },
+          {
+            "title": "Jacumba Solar Project (San Diego County)",
+            "counties": [
+              "San Diego County"
+            ],
+            "fips": [
+              "06073"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": ""
+          },
+          {
+            "title": "Mount Signal Solar Farm (Imperial County)",
+            "counties": [
+              "Imperial County"
+            ],
+            "fips": [
+              "06025"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "800"
+          },
+          {
+            "title": "Napa Sanitation District Solar Farm (Napa County)",
+            "counties": [
+              "Napa County"
+            ],
+            "fips": [
+              "06055"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "25"
+          },
+          {
+            "title": "Panoche Valley Solar Farm (San Benito County)",
+            "counties": [
+              "San Benito County"
+            ],
+            "fips": [
+              "06069"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "130"
+          },
+          {
+            "title": "Silurian Valley Solar Development (San Bernandino County)",
+            "counties": [
+              "San Bernardino County"
+            ],
+            "fips": [
+              "06071"
+            ],
+            "status": "Canceled",
+            "cancelled": "2014",
+            "capacity": "200"
+          },
+          {
+            "title": "Soda Mountain Solar Project (San Bernardino County)",
+            "counties": [
+              "San Bernardino County"
+            ],
+            "fips": [
+              "06071"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "300"
+          },
+          {
+            "title": "SunWalker Solar Project (Alameda County)",
+            "counties": [
+              "Alameda County"
+            ],
+            "fips": [
+              "06001"
+            ],
+            "status": "Canceled",
+            "cancelled": "",
+            "capacity": ""
+          },
+          {
+            "title": "Coyote Creek Agrivoltaics Farm (Sacramento County)",
+            "counties": [
+              "Sacramento County"
+            ],
+            "fips": [
+              "06067"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "300"
+          }
+        ],
+        "battery": [
+          {
+            "title": "Aratina Solar Center (Kern County)",
+            "counties": [
+              "Kern County"
+            ],
+            "fips": [
+              "06029"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "1130"
+          },
+          {
+            "title": "Fort Ross Pumped Storage Project (Sonoma County)",
+            "counties": [
+              "Sonoma County"
+            ],
+            "fips": [
+              "06097"
+            ],
+            "status": "Canceled",
+            "cancelled": "2023",
+            "capacity": ""
+          },
+          {
+            "title": "Humidor Battery Energy Storage Project (Los Angeles County)",
+            "counties": [
+              "Los Angeles County"
+            ],
+            "fips": [
+              "06037"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "400"
+          },
+          {
+            "title": "Seguro Battery Storage Project (San Diego County)",
+            "counties": [
+              "San Diego County"
+            ],
+            "fips": [
+              "06073"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "320"
+          },
+          {
+            "title": "Coyote Creek Agrivoltaics Farm (Sacramento County)",
+            "counties": [
+              "Sacramento County"
+            ],
+            "fips": [
+              "06067"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "300"
+          }
+        ]
+      },
+      "fipsByTech": {
+        "wind": [
+          "06001",
+          "06013",
+          "06023",
+          "06029",
+          "06033",
+          "06071",
+          "06073",
+          "06079",
+          "06083",
+          "06089"
+        ],
+        "solar": [
+          "06001",
+          "06025",
+          "06029",
+          "06055",
+          "06065",
+          "06067",
+          "06069",
+          "06071",
+          "06073"
+        ],
+        "battery": [
+          "06029",
+          "06037",
+          "06067",
+          "06073",
+          "06097"
+        ]
+      }
+    },
+    "UT": {
+      "projects": {
+        "wind": [],
+        "solar": [],
+        "battery": []
+      },
+      "fipsByTech": {
+        "wind": [],
+        "solar": [],
+        "battery": []
+      }
+    },
+    "MS": {
+      "projects": {
+        "wind": [],
+        "solar": [
+          {
+            "title": "Minkar Solar Farm (Lamar County)",
+            "counties": [
+              "Lamar County"
+            ],
+            "fips": [
+              "28073"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "90"
+          },
+          {
+            "title": "Soul City Solar (Hinds County)",
+            "counties": [
+              "Hinds County"
+            ],
+            "fips": [
+              "28049"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "396"
+          }
+        ],
+        "battery": [
+          {
+            "title": "Soul City Solar (Hinds County)",
+            "counties": [
+              "Hinds County"
+            ],
+            "fips": [
+              "28049"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "396"
+          }
+        ]
+      },
+      "fipsByTech": {
+        "wind": [],
+        "solar": [
+          "28049",
+          "28073"
+        ],
+        "battery": [
+          "28049"
+        ]
+      }
+    },
+    "AZ": {
+      "projects": {
+        "wind": [],
+        "solar": [
+          {
+            "title": "Horus Energy AZ 1 LLC’s Prince Road Solar Project (Cochise County)",
+            "counties": [
+              "Cochise County"
+            ],
+            "fips": [
+              "04003"
+            ],
+            "status": "Canceled",
+            "cancelled": "2024",
+            "capacity": "75"
+          }
+        ],
+        "battery": [
+          {
+            "title": "Black Mesa Pumped Storage Project (Apache and Navajo Counties)",
+            "counties": [
+              "Apache County",
+              "Navajo County"
+            ],
+            "fips": [
+              "04001",
+              "04017"
+            ],
+            "status": "Canceled",
+            "cancelled": "",
+            "capacity": "6000"
+          }
+        ]
+      },
+      "fipsByTech": {
+        "wind": [],
+        "solar": [
+          "04003"
+        ],
+        "battery": [
+          "04001",
+          "04017"
+        ]
+      }
+    },
+    "NV": {
+      "projects": {
+        "wind": [
+          {
+            "title": "Crescent Peak Wind Project (Clark County)",
+            "counties": [
+              "Clark County"
+            ],
+            "fips": [
+              "32003"
+            ],
+            "status": "Canceled",
+            "cancelled": "",
+            "capacity": "500"
+          },
+          {
+            "title": "Forest Hills Subdivision Wind Turbine (Washoe County)",
+            "counties": [
+              "Washoe County"
+            ],
+            "fips": [
+              "32031"
+            ],
+            "status": "Canceled",
+            "cancelled": "2013",
+            "capacity": ""
+          },
+          {
+            "title": "Kulning Wind Energy Project (Clark County)",
+            "counties": [
+              "Clark County"
+            ],
+            "fips": [
+              "32003"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": ""
+          },
+          {
+            "title": "Searchlight Wind Project (Clark County)",
+            "counties": [
+              "Clark County"
+            ],
+            "fips": [
+              "32003"
+            ],
+            "status": "Canceled",
+            "cancelled": "2017",
+            "capacity": "200"
+          },
+          {
+            "title": "Wilson Creek Wind Project (Lincoln County)",
+            "counties": [
+              "Lincoln County"
+            ],
+            "fips": [
+              "32017"
+            ],
+            "status": "Canceled",
+            "cancelled": "2012",
+            "capacity": "990"
+          },
+          {
+            "title": "Spring Valley Wind Farm (White Pine County)",
+            "counties": [
+              "White Pine County"
+            ],
+            "fips": [
+              "32033"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "152"
+          }
+        ],
+        "solar": [
+          {
+            "title": "Angora Solar Project (Clark County)",
+            "counties": [
+              "Clark County"
+            ],
+            "fips": [
+              "32003"
+            ],
+            "status": "Unknown",
+            "cancelled": "",
+            "capacity": "400"
+          },
+          {
+            "title": "Battle Born Solar (Clark County)",
+            "counties": [
+              "Clark County"
+            ],
+            "fips": [
+              "32003"
+            ],
+            "status": "Canceled",
+            "cancelled": "2021",
+            "capacity": "850"
+          },
+          {
+            "title": "Beatty Energy Center Project (Nye County)",
+            "counties": [
+              "Nye County"
+            ],
+            "fips": [
+              "32023"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "1600"
+          },
+          {
+            "title": "Bonnie Clare Solar Project (Nye County)",
+            "counties": [
+              "Nye County"
+            ],
+            "fips": [
+              "32023"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "3000"
+          },
+          {
+            "title": "Clark County Solar Development (Clark County)",
+            "counties": [
+              "Clark County"
+            ],
+            "fips": [
+              "32003"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": ""
+          },
+          {
+            "title": "Esmeralda Seven Solar Project (Esmeralda County)",
+            "counties": [
+              "Esmeralda County"
+            ],
+            "fips": [
+              "32009"
+            ],
+            "status": "Canceled",
+            "cancelled": "2025",
+            "capacity": "6200"
+          },
+          {
+            "title": "Rough Hat Clark Solar Project (Clark County)",
+            "counties": [
+              "Clark County"
+            ],
+            "fips": [
+              "32003"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": ""
+          },
+          {
+            "title": "Rough Hat Nye County Solar Project (Nye County)",
+            "counties": [
+              "Nye County"
+            ],
+            "fips": [
+              "32023"
+            ],
+            "status": "Canceled",
+            "cancelled": "",
+            "capacity": "500"
+          },
+          {
+            "title": "Sawtooth Energy Center Project (Nye County)",
+            "counties": [
+              "Nye County"
+            ],
+            "fips": [
+              "32023"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": ""
+          },
+          {
+            "title": "Solar Partners VII (Carson City)",
+            "counties": [
+              "Carson City"
+            ],
+            "fips": [
+              "32510"
+            ],
+            "status": "Canceled",
+            "cancelled": "2021",
+            "capacity": "850"
+          }
+        ],
+        "battery": [
+          {
+            "title": "Esmeralda Seven Solar Project (Esmeralda County)",
+            "counties": [
+              "Esmeralda County"
+            ],
+            "fips": [
+              "32009"
+            ],
+            "status": "Canceled",
+            "cancelled": "2025",
+            "capacity": "6200"
+          },
+          {
+            "title": "Pyramid Lake Pumped Storage Project (Lyon, Storey, and Washoe Counties)",
+            "counties": [
+              "Lyon County",
+              "Storey County",
+              "Washoe County"
+            ],
+            "fips": [
+              "32019",
+              "32029",
+              "32031"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "2000"
+          }
+        ]
+      },
+      "fipsByTech": {
+        "wind": [
+          "32003",
+          "32017",
+          "32031",
+          "32033"
+        ],
+        "solar": [
+          "32003",
+          "32009",
+          "32023",
+          "32510"
+        ],
+        "battery": [
+          "32009",
+          "32019",
+          "32029",
+          "32031"
+        ]
+      }
+    },
+    "IL": {
+      "projects": {
+        "wind": [
+          {
+            "title": "Alta Wind Farm (DeWitt County)",
+            "counties": [
+              "De Witt County"
+            ],
+            "fips": [
+              "17039"
+            ],
+            "status": "Operational",
+            "cancelled": "",
+            "capacity": "200"
+          },
+          {
+            "title": "Ford Ridge Wind Farm (Ford County)",
+            "counties": [
+              "Ford County"
+            ],
+            "fips": [
+              "17053"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": ""
+          },
+          {
+            "title": "Goose Creek Wind Project / Prosperity Wind Farm (Piatt County)",
+            "counties": [
+              "Piatt County"
+            ],
+            "fips": [
+              "17147"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "300"
+          },
+          {
+            "title": "Harvest Ridge Wind Farm (Douglas County)",
+            "counties": [
+              "Douglas County"
+            ],
+            "fips": [
+              "17041"
+            ],
+            "status": "Operational",
+            "cancelled": "",
+            "capacity": "200"
+          },
+          {
+            "title": "HillTopper Wind Farm (Logan County)",
+            "counties": [
+              "Logan County"
+            ],
+            "fips": [
+              "17107"
+            ],
+            "status": "Operational",
+            "cancelled": "",
+            "capacity": "200"
+          },
+          {
+            "title": "Niyol Wind Farm (Logan County)",
+            "counties": [
+              "Logan County"
+            ],
+            "fips": [
+              "17107"
+            ],
+            "status": "Operational",
+            "cancelled": "",
+            "capacity": "200"
+          },
+          {
+            "title": "Pleasant Ridge Wind Farm (Livingston County)",
+            "counties": [
+              "Livingston County"
+            ],
+            "fips": [
+              "17105"
+            ],
+            "status": "Canceled",
+            "cancelled": "",
+            "capacity": "250"
+          },
+          {
+            "title": "Top Hat Wind Project (Logan County)",
+            "counties": [
+              "Logan County"
+            ],
+            "fips": [
+              "17107"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "200"
+          }
+        ],
+        "solar": [
+          {
+            "title": "Alexis Solar Project (Mercer County)",
+            "counties": [
+              "Mercer County"
+            ],
+            "fips": [
+              "17131"
+            ],
+            "status": "Canceled",
+            "cancelled": "2023",
+            "capacity": ""
+          },
+          {
+            "title": "Amp Solar’s Pratt Road Solar Garden (Dekalb County)",
+            "counties": [
+              "DeKalb County"
+            ],
+            "fips": [
+              "17037"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "5"
+          },
+          {
+            "title": "Bundleflower Solar LLC (Livingston County)",
+            "counties": [
+              "Livingston County"
+            ],
+            "fips": [
+              "17105"
+            ],
+            "status": "Canceled",
+            "cancelled": "2023",
+            "capacity": ""
+          },
+          {
+            "title": "Indigo Solar Project (Winnebago County)",
+            "counties": [
+              "Winnebago County"
+            ],
+            "fips": [
+              "17201"
+            ],
+            "status": "Canceled",
+            "cancelled": "2024",
+            "capacity": "5"
+          },
+          {
+            "title": "Princeton Technology Park Solar Array (Buerau County)",
+            "counties": [
+              "Bureau County"
+            ],
+            "fips": [
+              "17011"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": ""
+          },
+          {
+            "title": "SolarStone Partners Solar Farm (Tazewell County)",
+            "counties": [
+              "Tazewell County"
+            ],
+            "fips": [
+              "17179"
+            ],
+            "status": "Canceled",
+            "cancelled": "2023",
+            "capacity": ""
+          },
+          {
+            "title": "Will County Solar Farm (Will County)",
+            "counties": [
+              "Will County"
+            ],
+            "fips": [
+              "17197"
+            ],
+            "status": "Canceled",
+            "cancelled": "2024",
+            "capacity": "300"
+          },
+          {
+            "title": "New Lenox Township Solar Project (Will County)",
+            "counties": [
+              "Will County"
+            ],
+            "fips": [
+              "17197"
+            ],
+            "status": "Canceled",
+            "cancelled": "",
+            "capacity": "10"
+          },
+          {
+            "title": "Belvidere Solar (Boone County)",
+            "counties": [
+              "Boone County"
+            ],
+            "fips": [
+              "17007"
+            ],
+            "status": "Pending",
+            "cancelled": "",
+            "capacity": "25.2"
+          }
+        ],
+        "battery": []
+      },
+      "fipsByTech": {
+        "wind": [
+          "17039",
+          "17041",
+          "17053",
+          "17105",
+          "17107",
+          "17147"
+        ],
+        "solar": [
+          "17007",
+          "17011",
+          "17037",
+          "17105",
+          "17131",
+          "17179",
+          "17197",
+          "17201"
+        ],
+        "battery": []
+      }
+    }
+  }
+}
