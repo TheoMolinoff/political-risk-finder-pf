@@ -19,7 +19,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2018",
-            "capacity": "100"
+            "capacity": "100",
+            "sourceUrl": "https://www.texasobserver.org/inside-the-coordinated-attack-on-a-north-texas-wind-farm"
           },
           {
             "title": "Byers Wind Project (Clay County)",
@@ -31,7 +32,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2018",
-            "capacity": "200"
+            "capacity": "200",
+            "sourceUrl": "https://www.texasobserver.org/inside-the-coordinated-attack-on-a-north-texas-wind-farm"
           },
           {
             "title": "Fannin-Lamar Wind Farm, a/k/a Big Tussle Wind Ranch (Fannin and Lamar Counties)",
@@ -45,7 +47,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://www.kten.com/news/residents-push-back-against-bi-county-wind-farm/article_dee81108-1346-51bf-ade0-fdb31b17af96.html"
           },
           {
             "title": "Horse Hollow Wind Energy Center (Nolan and Taylor Counties)",
@@ -59,7 +62,8 @@
             ],
             "status": "Operational",
             "cancelled": "",
-            "capacity": "735.5"
+            "capacity": "735.5",
+            "sourceUrl": "https://www.law.uh.edu/faculty/thester/courses/emerging%20tech%202011/HorseHollow2p.pdf."
           },
           {
             "title": "Mustang Wind Project (Fayette County)",
@@ -71,7 +75,8 @@
             ],
             "status": "Unknown",
             "cancelled": "",
-            "capacity": "250"
+            "capacity": "250",
+            "sourceUrl": "https://www.fayettecountyrecord.com/news/county-passes-resolution-against-wind-energy-development"
           },
           {
             "title": "Ranchland Wind Project (Callahan and Eastland Counties)",
@@ -85,7 +90,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "354"
+            "capacity": "354",
+            "sourceUrl": "https://lonestarstandard.com/stories/536486831-residents-landowners-oppose-wind-project-in-callahan-eastland-counties"
           },
           {
             "title": "Wind Catcher Energy Connection Project (Donley and Gregg Counties)",
@@ -99,7 +105,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2018",
-            "capacity": "2000"
+            "capacity": "2000",
+            "sourceUrl": "https://insideclimatenews.org/news/30072018/aep-cancels-wind-catcher-largest-wind-farm-oklahoma-oil-gas-opposition-clean-power-plan/"
           },
           {
             "title": "Lane City Wind Project (Wharton County)",
@@ -111,7 +118,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "203"
+            "capacity": "203",
+            "sourceUrl": "https://climate.law.columbia.edu/sites/climate.law.columbia.edu/files/content/Blue%20Creek%20Real%20Properties%2C%20LLC%20v.%20US%20Dept%20of%20Treasury%20et%20al%20.pdf"
           }
         ],
         "solar": [
@@ -125,7 +133,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://www.washingtonpost.com/lifestyle/magazine/a-battle-of-green-against-green-in-this-texas-community/2021/07/30/836a6e4c-eaf7-11eb-ba5d-55d3b5ffcaf1_story.html."
           },
           {
             "title": "Rio Lago Solar (Bandera County)",
@@ -137,7 +146,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "123"
+            "capacity": "123",
+            "sourceUrl": "https://news4sanantonio.com/news/trouble-shooters/bandera-property-owners-claim-solar-farm-project-polluting-their-properties"
           },
           {
             "title": "Solar Proponent LLC (Bastrop County)",
@@ -149,7 +159,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2022",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://www.kxan.com/news/local/elgin/669-million-solar-farm-plan-rejected-for-incentives-in-bastrop-county/"
           },
           {
             "title": "Stockyard Solar a/k/a Saddle House Solar (Franklin County)",
@@ -161,7 +172,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "280"
+            "capacity": "280",
+            "sourceUrl": "https://www.citizens-for-reasonable-regulation-of-renewable-energy.com/about"
           },
           {
             "title": "Lazy U Solar 1 (Hardeman County)",
@@ -173,7 +185,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "200"
+            "capacity": "200",
+            "sourceUrl": "https://www.texomashomepage.com/news/local-news/hardeman-county-oks-solar-farm-tax-break-amid-protests/."
           },
           {
             "title": "Oneida 2 Solar (Potter County)",
@@ -185,7 +198,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2025",
-            "capacity": "254"
+            "capacity": "254",
+            "sourceUrl": "https://www.newschannel10.com/2025/10/10/xcel-energy-withdraws-solar-farm-project-proposal-rolling-hills-area/"
           }
         ],
         "battery": [
@@ -201,7 +215,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "354"
+            "capacity": "354",
+            "sourceUrl": "https://lonestarstandard.com/stories/536486831-residents-landowners-oppose-wind-project-in-callahan-eastland-counties"
           },
           {
             "title": "Stockyard Solar a/k/a Saddle House Solar (Franklin County)",
@@ -213,7 +228,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "280"
+            "capacity": "280",
+            "sourceUrl": "https://www.citizens-for-reasonable-regulation-of-renewable-energy.com/about"
           }
         ]
       },
@@ -259,7 +275,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "2600"
+            "capacity": "2600",
+            "sourceUrl": "https://www.doi.gov/pressreleases/trump-administration-protects-us-national-security-pausing-offshore-wind-leases"
           },
           {
             "title": "Kitty Hawk Wind Project Cable Landing (City of Virginia Beach)",
@@ -271,7 +288,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "3500"
+            "capacity": "3500",
+            "sourceUrl": "https://www.pilotonline.com/2024/03/25/group-of-sandbridge-residents-oppose-wind-energy-cable-landing-as-avangrid-makes-another-pitch/"
           },
           {
             "title": "Rocky Forge Wind (Botetourt County)",
@@ -283,7 +301,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "75"
+            "capacity": "75",
+            "sourceUrl": "https://virginianreview.com/209615/"
           }
         ],
         "solar": [
@@ -297,7 +316,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2024",
-            "capacity": "105"
+            "capacity": "105",
+            "sourceUrl": "https://www.thenewsprogress.com/news/article_a4ae1e12-2a37-11ec-96a0-ffb4878929ec.html"
           },
           {
             "title": "Antlers Road Solar Farm (Mecklenburg County)",
@@ -309,7 +329,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://virginiabusiness.com/mecklenburg-ends-future-solar-projects/"
           },
           {
             "title": "Axton Solar Project (Henry County)",
@@ -321,7 +342,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2023",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://martinsvillebulletin.com/news/local/govt-and-politics/board-of-zoning-appeals-denies-two-solar-farm-requests-in-axton/article_764ee4c0-4e31-11ec-a948-3fa623aCcb601.html"
           },
           {
             "title": "Bakers Pond Solar Farm (Prince George County)",
@@ -333,7 +355,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2023",
-            "capacity": "100"
+            "capacity": "100",
+            "sourceUrl": "https://www.wric.com/news/prince-george/prince-george-residents-voice-opposition-to-proposed-solar-farm/."
           },
           {
             "title": "Bealeton Solar Farm (Fauquier County)",
@@ -345,7 +368,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2021",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://www.fauquier.com/news/planners-object-to-proposed-bealeton-solar-project-s-effect-on-farmland/article_bd5b9e02-a20c-11eb-8399-2be2563d3b5f.html?fbclid=IwAR1c6FWXH0Rws6Us0G_uTXivt8z19zbfOuBx03FxAOUu8L4-lxmANsoaXP4."
           },
           {
             "title": "Blackwater Solar Project (Sussex County)",
@@ -357,7 +381,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2024",
-            "capacity": "600"
+            "capacity": "600",
+            "sourceUrl": "https://www.thesussexsurrydispatch.com/news/blackwater-solar-project-defeated/article_ecd227da-2992-11ef-9a71-cfc79f605553.html"
           },
           {
             "title": "Cape Solar Project (Page County)",
@@ -369,7 +394,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2022",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://pagevalleynews.com/urban-grid-withdraws-cape-solar-application-county-doesnt-anticipate-third-attempt/"
           },
           {
             "title": "Cartersville Solar (Powhatan County)",
@@ -381,7 +407,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2019",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://richmond.com/news/local/central-virginia/powhatan/powhatan-today/solar-farm-withdraws-application-after-board-denies-appeal/article_5efbcfd8-459a-11e9-9f47-ab35e59dc6b4.html."
           },
           {
             "title": "Carver Solar (Isle of Wight County)",
@@ -393,7 +420,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2023",
-            "capacity": "71"
+            "capacity": "71",
+            "sourceUrl": "https://www.windsorweekly.com/2023/03/03/isle-of-wight-supervisors-reject-zuni-solar-farm-form-energy-task-force/."
           },
           {
             "title": "Crawford Road Solar (Halifax County)",
@@ -405,7 +433,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "5"
+            "capacity": "5",
+            "sourceUrl": "https://www.sovanow.com/articles/halifax-council-rejects-crawford-road-solar/."
           },
           {
             "title": "Cricket Solar (Culpepper County)",
@@ -417,7 +446,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2019",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://fredericksburg.com/news/local/culpeper-solar-farm-called-off-after-pushback/article_70b5375a-d4a6-11e9-b588-03024bc459c8.html."
           },
           {
             "title": "Cunningham Springs Solar (Orange County)",
@@ -429,7 +459,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2024",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://dailyprogress.com/news/community/orangenews/article_80aa5a40-e7e9-11ee-8e54-53487c1362d8.html."
           },
           {
             "title": "Hillendale Solar (Halifax County)",
@@ -441,7 +472,8 @@
             ],
             "status": "Unknown",
             "cancelled": "",
-            "capacity": "102"
+            "capacity": "102",
+            "sourceUrl": "https://www.sovanow.com/articles/halifax-county-planners-give-thumbs-down-to-solar-project/."
           },
           {
             "title": "James City County Solar Project (James City County)",
@@ -453,7 +485,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2023",
-            "capacity": "4.75"
+            "capacity": "4.75",
+            "sourceUrl": "https://www.dailypress.com/2023/03/17/james-city-county-supervisor-calls-for-pause-on-new-solar-projects/"
           },
           {
             "title": "Lily Pond Solar (Dinwiddie County)",
@@ -465,7 +498,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2021",
-            "capacity": "80"
+            "capacity": "80",
+            "sourceUrl": "https://www.thedinwiddiemonitor.com/news/dinwiddie-rejects-solar-project-agreement/article_d7409a8e-3825-11ec-8133-6fdf2e2bed7f.html."
           },
           {
             "title": "Lone Oak Agrisolar Project (Mecklenburg County)",
@@ -477,7 +511,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2023",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://www.heraldbulletin.com/news/local_news/indiana-supreme-court-wont-consider-lawsuit-against-lone-oak-solar/article_6cae63c0-42fe-11ec-b0c5-63e05883d814.html"
           },
           {
             "title": "Maroon Solar (Culpeper County)",
@@ -489,7 +524,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2023",
-            "capacity": "149"
+            "capacity": "149",
+            "sourceUrl": "https://fredericksburg.com/news/local/maroon-solar-project-withdrawn-company-says-it-will-resubmit-to-comply-with-new-rules/article_24ee72e4-426c-5e40-b91c-f4e9bd6f368d.html."
           },
           {
             "title": "Monarch Solar Project (Greensville County)",
@@ -501,7 +537,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2022",
-            "capacity": "123"
+            "capacity": "123",
+            "sourceUrl": "https://www.emporiaindependentmessenger.com/news/article_63a5fd42-1413-11ed-949f-c79cf9166f59.html."
           },
           {
             "title": "Mountain Pine Arvonia I and II (Buckingham County)",
@@ -513,7 +550,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "80"
+            "capacity": "80",
+            "sourceUrl": "https://www.farmvilleherald.com/2023/12/lack-of-a-solar-policy-in-buckingham-raises-confusion/."
           },
           {
             "title": "New Hope Agrisolar Project (Mecklenburg County)",
@@ -525,7 +563,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2023",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://www.sovanow.com/articles/mecklenburg-planners-reject-dual-use-agrisolar-projects/."
           },
           {
             "title": "North Anna River Solar Project (Hanover County)",
@@ -537,7 +576,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2024",
-            "capacity": "72"
+            "capacity": "72",
+            "sourceUrl": "https://www.vpm.org/2024-08-02/hanover-county-solar-farm-facilities"
           },
           {
             "title": "North Ridge Solar (Culpeper County)",
@@ -549,7 +589,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2023",
-            "capacity": "26"
+            "capacity": "26",
+            "sourceUrl": "https://www.insidenova.com/culpeper/culpeper-county-planning-commission-recommends-solar-farm-approval-in-contradictory-double-vote/article_8ef4c06a-11fa-11ee-8285-0b6520d41522.html"
           },
           {
             "title": "Old Ridge Road Solar Project (Prince Edward County)",
@@ -561,7 +602,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2024",
-            "capacity": "3"
+            "capacity": "3",
+            "sourceUrl": "https://www.farmvilleherald.com/2024/01/future-unclear-for-new-leaf-solar-in-prince-edward-county/"
           },
           {
             "title": "Orange Road Solar Farm (Orange County)",
@@ -573,7 +615,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2024",
-            "capacity": "5"
+            "capacity": "5",
+            "sourceUrl": "https://dailyprogress.com/news/community/orangenews/orange-county-solar-farm-may-have-met-its-match-the-social-media-influencers-next-door/article_6d7755f2-cc93-11ee-961b-8f7ecbcbd6c4.html"
           },
           {
             "title": "Piney River Solar Project (Amherst County)",
@@ -585,7 +628,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2024",
-            "capacity": "50"
+            "capacity": "50",
+            "sourceUrl": "https://newsadvance.com/news/community/new-era-progress/piney-river-solar-project-again-gets-denial-recommendation-from-amherst-commission/article_9d65f7c6-5e77-11ee-8390-cb256d3f44b5.html"
           },
           {
             "title": "Randolph Solar Project (Charlotte County)",
@@ -597,7 +641,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "800"
+            "capacity": "800",
+            "sourceUrl": "https://www.wdbj7.com/2021/10/12/company-seeking-build-utility-scale-solar-farm-charlotte-county-faces-lawsuit"
           },
           {
             "title": "Rocky Ford Solar Energy Project (Henry County)",
@@ -609,7 +654,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "90"
+            "capacity": "90",
+            "sourceUrl": "https://martinsvillebulletin.com/news/local/govt-and-politics/board-of-zoning-appeals-denies-two-solar-farm-requests-in-axton/article_764ee4c0-4e31-11ec-a948-3fa623aCcb601.html"
           },
           {
             "title": "South Boston Solar G Development (Halifax County)",
@@ -621,7 +667,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "5"
+            "capacity": "5",
+            "sourceUrl": "https://www.sovanow.com/articles/facing-opposition-solar-project-postponed/"
           },
           {
             "title": "Spotsylvania Solar Energy Center (Spotsylvania County)",
@@ -633,7 +680,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://www.virginiamercury.com/2019/04/10/biggest-piece-of-spotsylvania-solar-farm-approved/"
           },
           {
             "title": "Sunfish Solar (Orange County)",
@@ -645,7 +693,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2024",
-            "capacity": "80"
+            "capacity": "80",
+            "sourceUrl": "https://madrapp.com/articles/government/orange-co-pc-unanimously-recommends-denial-of-sunfish-solars-sup/"
           },
           {
             "title": "White Oak Tree Solar (Fluvanna County)",
@@ -657,7 +706,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "38"
+            "capacity": "38",
+            "sourceUrl": "https://www.nbc29.com/2023/11/09/fluvanna-county-defers-decision-put-solar-panels-huge-parcel-land/"
           },
           {
             "title": "Wolf Hills Solar (Washington County)",
@@ -669,7 +719,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2024",
-            "capacity": "262"
+            "capacity": "262",
+            "sourceUrl": "https://cardinalnews.org/2024/07/03/developer-withdraws-application-for-solar-farm-in-washington-county/"
           },
           {
             "title": "Gabriel Solar Project (Prince Edward County)",
@@ -681,7 +732,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2025",
-            "capacity": "200"
+            "capacity": "200",
+            "sourceUrl": "https://farmvilleherald.com/2025/03/gabriel-solar-goes-to-a-vote-county-makes-decision-on-project/"
           },
           {
             "title": "Almeda Solar Grazing Center (Fauquier County)",
@@ -693,7 +745,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2025",
-            "capacity": "90"
+            "capacity": "90",
+            "sourceUrl": "https://www.rappnews.com/news/landuse/fauquier-planners-reject-utility-scale-solar-project/article_a60554e2-b21e-541d-90c1-7fd87f99345e.html"
           },
           {
             "title": "Deltaville Solar (Middlesex County)",
@@ -705,7 +758,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2025",
-            "capacity": "20"
+            "capacity": "20",
+            "sourceUrl": "https://www.ssentinel.com/deltaville-solar-proposal-fizzles-out/"
           },
           {
             "title": "Sycamore Cross Solar (Isle of Wight and Surry Counties)",
@@ -719,7 +773,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2025",
-            "capacity": "240"
+            "capacity": "240",
+            "sourceUrl": "https://www.smithfieldtimes.com/2025/02/26/surry-supervisors-reject-sycamore-cross-solar-farm/"
           }
         ],
         "battery": [
@@ -733,7 +788,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2025",
-            "capacity": "200"
+            "capacity": "200",
+            "sourceUrl": "https://farmvilleherald.com/2025/03/gabriel-solar-goes-to-a-vote-county-makes-decision-on-project/"
           }
         ]
       },
@@ -788,7 +844,8 @@
             ],
             "status": "Unknown",
             "cancelled": "",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": ""
           },
           {
             "title": "BW-IDEOL Offshore Wind Project (Santa Barbara County)",
@@ -800,7 +857,8 @@
             ],
             "status": "Canceled",
             "cancelled": "",
-            "capacity": "40"
+            "capacity": "40",
+            "sourceUrl": "https://www.latimes.com/environment/story/2022-03-21/nobody-seems-to-like-this-california-wind-power-proposal"
           },
           {
             "title": "CADEMO Offshore Wind Project (Santa Barbara County)",
@@ -812,7 +870,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "60"
+            "capacity": "60",
+            "sourceUrl": "https://cademo.net/cademo-and-santa-ynez-chumash-2/"
           },
           {
             "title": "Fountain Wind Project (Shasta County)",
@@ -824,7 +883,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "200"
+            "capacity": "200",
+            "sourceUrl": "https://www.redding.com/story/news/local/2025/12/20/california-energy-commission-denies-shasta-county-fountain-wind-farm/87853324007/"
           },
           {
             "title": "Granite Mountain Wind Energy Project (San Bernardino County)",
@@ -836,7 +896,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2013",
-            "capacity": "84"
+            "capacity": "84",
+            "sourceUrl": "https://www.sbcounty.gov/uploads/lus/desert/deis-eir-volume1.pdf"
           },
           {
             "title": "Halus Power Wind Turbine (Alameda County)",
@@ -848,7 +909,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2013",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://www.mercurynews.com/2013/05/07/homeowners-take-san-leandro-wind-turbine-battle-to-court/"
           },
           {
             "title": "Humboldt Wind Energy Area (Humboldt County)",
@@ -860,7 +922,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://lostcoastoutpost.com/2024/mar/10/bear-river-tribal-council-joins-yurok-tribe-formal/"
           },
           {
             "title": "Jawbone Wind Energy (Kern County)",
@@ -872,7 +935,8 @@
             ],
             "status": "Unknown",
             "cancelled": "",
-            "capacity": "339"
+            "capacity": "339",
+            "sourceUrl": ""
           },
           {
             "title": "Morro Bay Wind Area (San Luis Obispo County)",
@@ -884,7 +948,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://www.columbian.com/news/2024/apr/08/slo-county-fishermen-sue-coastal-commission-offshore-wind-companies-weve-got-rights-here/."
           },
           {
             "title": "Mulqueeney Ranch Wind Repowering Project (Alameda County)",
@@ -896,7 +961,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "80"
+            "capacity": "80",
+            "sourceUrl": "https://www.acgov.org/cda/planning/landuseprojects/documents/MulqueeneyRanch/Approval-package-PLN2024-00055-FINAL.pdf"
           },
           {
             "title": "North Sky River Project (Kern County)",
@@ -908,7 +974,8 @@
             ],
             "status": "Operational",
             "cancelled": "",
-            "capacity": "162"
+            "capacity": "162",
+            "sourceUrl": "https://vault.sierraclub.org/sierra/201303/wind-power-turbine-technology-birds.aspx"
           },
           {
             "title": "Shu’luuk Wind Project, a/k/a Kumeyaay II (San Diego County)",
@@ -920,7 +987,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2014",
-            "capacity": "250"
+            "capacity": "250",
+            "sourceUrl": "https://archive.epa.gov/region9/nepa/web/pdf/2013-03-04-shu-luuk-wind-proj-campo-indian-res-deis.pdf"
           },
           {
             "title": "Strauss Wind Energy Project (Santa Barbara County)",
@@ -932,7 +1000,8 @@
             ],
             "status": "Operational",
             "cancelled": "",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://santamariatimes.com/news/local/govt-and-politics/santa-barbara-county-supervisors-deny-appeals-approve-wind-energy-project/article_885b18dc-3bc6-5982-81e0-b7effea799c4.html"
           },
           {
             "title": "Terra-Gen Wind Project (Humboldt County)",
@@ -944,7 +1013,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2019",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://www.northcoastjournal.com/NewsBlog/archives/2019/11/17/overflow-crowd-again-turns-out-for-public-hearing-on-controversial-wind-farm-proposal"
           },
           {
             "title": "Walker Ridge Wind Energy Project (Lake County)",
@@ -956,7 +1026,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2022",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://www.lakeconews.com/news/71836-blm-denies-permit-for-walker-ridge-wind-energy-project."
           }
         ],
         "solar": [
@@ -970,7 +1041,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://www.pleasantonweekly.com/news/2020/10/07/supervisor-candidates-urge-a-pause-on-livermore-solar-projects"
           },
           {
             "title": "Aratina Solar Center (Kern County)",
@@ -982,7 +1054,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "1130"
+            "capacity": "1130",
+            "sourceUrl": "https://www.aratinasolar.com/"
           },
           {
             "title": "Blythe Mesa Solar Power Project (Riverside County)",
@@ -994,7 +1067,8 @@
             ],
             "status": "Unknown",
             "cancelled": "",
-            "capacity": "465"
+            "capacity": "465",
+            "sourceUrl": "https://www.basinandrangewatch.org/Blythe.html"
           },
           {
             "title": "Calico Solar Project (San Bernardino County)",
@@ -1006,7 +1080,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2013",
-            "capacity": "663.5"
+            "capacity": "663.5",
+            "sourceUrl": "https://www.forbes.com/sites/larrybell/2013/03/12/environmental-groups-strongly-endorse-none-of-the-above-energy-plans/?sh=22656bfe1e3e"
           },
           {
             "title": "Genesis Solar Energy Project (Riverside County)",
@@ -1018,7 +1093,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "250"
+            "capacity": "250",
+            "sourceUrl": "https://www.energy.ca.gov/powerplant/solar-thermal/genesis-solar-energy-project"
           },
           {
             "title": "Grant Line Solar Project (Alameda County)",
@@ -1030,7 +1106,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "2"
+            "capacity": "2",
+            "sourceUrl": "https://www.independentnews.com/news/regional_and_ca/alameda-county-supervisors-reject-friends-of-livermore-appeal-approve-grant-line-solar-1-project-in/article_bfd70d76-668a-11ed-a90c-d7492fc8e63e.html"
           },
           {
             "title": "Jacumba Solar Project (San Diego County)",
@@ -1042,7 +1119,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://holtvilletribune.com/2021/10/31/jacumba-residents-on-their-own-with-projects/"
           },
           {
             "title": "Mount Signal Solar Farm (Imperial County)",
@@ -1054,7 +1132,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "800"
+            "capacity": "800",
+            "sourceUrl": "https://cleantechnica.com/2018/07/12/8minutenergy-turns-on-phases-1-2-of-328-megawatt-mount-signal-3-solar-farm/"
           },
           {
             "title": "Napa Sanitation District Solar Farm (Napa County)",
@@ -1066,7 +1145,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "25"
+            "capacity": "25",
+            "sourceUrl": "https://www.pressdemocrat.com/article/napa/solar-napa-electricity-laketricity/."
           },
           {
             "title": "Panoche Valley Solar Farm (San Benito County)",
@@ -1078,7 +1158,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "130"
+            "capacity": "130",
+            "sourceUrl": "https://www.mercurynews.com/2017/07/21/giant-solar-project-reduced-due-to-environmentalists-opposition/"
           },
           {
             "title": "Silurian Valley Solar Development (San Bernandino County)",
@@ -1090,7 +1171,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2014",
-            "capacity": "200"
+            "capacity": "200",
+            "sourceUrl": "https://www.blm.gov/press-release/blm-rejects-solar-development-silurian-valley"
           },
           {
             "title": "Soda Mountain Solar Project (San Bernardino County)",
@@ -1102,7 +1184,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "300"
+            "capacity": "300",
+            "sourceUrl": "https://www.latimes.com/environment/story/2023-02-06/mojave-desert-solar-energy-project-angers-conservationists"
           },
           {
             "title": "SunWalker Solar Project (Alameda County)",
@@ -1114,7 +1197,8 @@
             ],
             "status": "Canceled",
             "cancelled": "",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://www.pleasantonweekly.com/news/2021/05/20/sunwalker-pulls-the-plug-on-livermore-solar-project/"
           },
           {
             "title": "Coyote Creek Agrivoltaics Farm (Sacramento County)",
@@ -1126,7 +1210,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "300"
+            "capacity": "300",
+            "sourceUrl": "https://www.abridged.org/news/sacramento-county-leaders-approve-solar-farm/"
           }
         ],
         "battery": [
@@ -1140,7 +1225,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "1130"
+            "capacity": "1130",
+            "sourceUrl": "https://www.aratinasolar.com/"
           },
           {
             "title": "Fort Ross Pumped Storage Project (Sonoma County)",
@@ -1152,7 +1238,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2023",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://norcalpublicmedia.org/2023082190758/news-feed/local-leaders-activists-mobilizing-to-block-ft-ross-power-plant"
           },
           {
             "title": "Humidor Battery Energy Storage Project (Los Angeles County)",
@@ -1164,7 +1251,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "400"
+            "capacity": "400",
+            "sourceUrl": "https://signalscv.com/2023/10/acton-residents-sue-over-energy-storage-project/"
           },
           {
             "title": "Seguro Battery Storage Project (San Diego County)",
@@ -1176,7 +1264,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "320"
+            "capacity": "320",
+            "sourceUrl": "https://www.change.org/p/stop-the-installation-of-the-seguro-battery-energy-storage-system-bess-in-escondido-ca"
           },
           {
             "title": "Coyote Creek Agrivoltaics Farm (Sacramento County)",
@@ -1188,7 +1277,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "300"
+            "capacity": "300",
+            "sourceUrl": "https://www.abridged.org/news/sacramento-county-leaders-approve-solar-farm/"
           }
         ]
       },
@@ -1251,7 +1341,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "90"
+            "capacity": "90",
+            "sourceUrl": "https://www.wdam.com/2023/07/26/lamar-county-residents-plan-town-hall-push-back-against-proposed-solar-farm/"
           },
           {
             "title": "Soul City Solar (Hinds County)",
@@ -1263,7 +1354,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "396"
+            "capacity": "396",
+            "sourceUrl": "https://www.wlbt.com/2025/08/13/hearing-proposed-hinds-county-solar-farm-held-public-service-commission/"
           }
         ],
         "battery": [
@@ -1277,7 +1369,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "396"
+            "capacity": "396",
+            "sourceUrl": "https://www.wlbt.com/2025/08/13/hearing-proposed-hinds-county-solar-farm-held-public-service-commission/"
           }
         ]
       },
@@ -1306,7 +1399,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2024",
-            "capacity": "75"
+            "capacity": "75",
+            "sourceUrl": "https://www.myheraldreview.com/county-p-z-denies-special-use-permit-for-solar-farm/article_0c16d914-71fb-11ef-8e52-eb0ef4ea0281.html."
           }
         ],
         "battery": [
@@ -1322,7 +1416,8 @@
             ],
             "status": "Canceled",
             "cancelled": "",
-            "capacity": "6000"
+            "capacity": "6000",
+            "sourceUrl": "https://kjzz.org/content/1866630/hydropower-project-black-mesa-navajo-nation-draws-opponents"
           }
         ]
       },
@@ -1350,7 +1445,8 @@
             ],
             "status": "Canceled",
             "cancelled": "",
-            "capacity": "500"
+            "capacity": "500",
+            "sourceUrl": "https://governorswindenergycoalition.org/blm-rejects-massive-nev-wind-project"
           },
           {
             "title": "Forest Hills Subdivision Wind Turbine (Washoe County)",
@@ -1362,7 +1458,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2013",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": ""
           },
           {
             "title": "Kulning Wind Energy Project (Clark County)",
@@ -1374,7 +1471,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://www.eenews.net/articles/nev-monument-will-shield-sacred-tribal-land-from-renewables/"
           },
           {
             "title": "Searchlight Wind Project (Clark County)",
@@ -1386,7 +1484,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2017",
-            "capacity": "200"
+            "capacity": "200",
+            "sourceUrl": "http://lasvegassun.com/news/2015/nov/06/citing-flawed-environmental-report-judge-sends-sea/"
           },
           {
             "title": "Wilson Creek Wind Project (Lincoln County)",
@@ -1398,7 +1497,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2012",
-            "capacity": "990"
+            "capacity": "990",
+            "sourceUrl": "https://www.wind-watch.org/news/2012/02/24/wilson-creek-power-project-abandoned/"
           },
           {
             "title": "Spring Valley Wind Farm (White Pine County)",
@@ -1410,7 +1510,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "152"
+            "capacity": "152",
+            "sourceUrl": "https://www.reviewjournal.com/business/energy/wind-energy-project-gearing-up-after-lawsuit-settled"
           }
         ],
         "solar": [
@@ -1424,7 +1525,8 @@
             ],
             "status": "Unknown",
             "cancelled": "",
-            "capacity": "400"
+            "capacity": "400",
+            "sourceUrl": "https://www.eenews.net/articles/biden-to-create-national-monuments-in-nevada-and-texas/"
           },
           {
             "title": "Battle Born Solar (Clark County)",
@@ -1436,7 +1538,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2021",
-            "capacity": "850"
+            "capacity": "850",
+            "sourceUrl": "https://apnews.com/article/technology-government-and-politics-environment-and-nature-las-vegas-nevada-9bf3640dfefbc6f7f45a97c6810f5ff7."
           },
           {
             "title": "Beatty Energy Center Project (Nye County)",
@@ -1448,7 +1551,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "1600"
+            "capacity": "1600",
+            "sourceUrl": "https://www.basinandrangewatch.org/BeattySolar_PD_20210514.pdf"
           },
           {
             "title": "Bonnie Clare Solar Project (Nye County)",
@@ -1460,7 +1564,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "3000"
+            "capacity": "3000",
+            "sourceUrl": "https://pucweb1.state.nv.us/PDF/AxImages/DOCKETS_2020_THRU_PRESENT/2022-1/15008.pdf"
           },
           {
             "title": "Clark County Solar Development (Clark County)",
@@ -1472,7 +1577,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://www.reviewjournal.com/news/politics-and-government/nevada/feds-sued-over-bundys-cattle-solar-development-near-las-vegas-2904722/"
           },
           {
             "title": "Esmeralda Seven Solar Project (Esmeralda County)",
@@ -1484,7 +1590,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2025",
-            "capacity": "6200"
+            "capacity": "6200",
+            "sourceUrl": "https://eplanning.blm.gov/eplanning-ui/project/2020804/510"
           },
           {
             "title": "Rough Hat Clark Solar Project (Clark County)",
@@ -1496,7 +1603,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://www.blm.gov/press-release/blm-approves-rough-hat-clark-solar-project"
           },
           {
             "title": "Rough Hat Nye County Solar Project (Nye County)",
@@ -1508,7 +1616,8 @@
             ],
             "status": "Canceled",
             "cancelled": "",
-            "capacity": "500"
+            "capacity": "500",
+            "sourceUrl": "https://pvtimes.com/news/solar-project-discussion-riles-pahrump-public-105700"
           },
           {
             "title": "Sawtooth Energy Center Project (Nye County)",
@@ -1520,7 +1629,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://www.basinandrangewatch.org/Sawtooth_PD_20210414.pdf"
           },
           {
             "title": "Solar Partners VII (Carson City)",
@@ -1532,7 +1642,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2021",
-            "capacity": "850"
+            "capacity": "850",
+            "sourceUrl": "https://www.reviewjournal.com/news/politics-and-government/plans-scrapped-for-huge-solar-array-north-of-las-vegas-2405042/."
           }
         ],
         "battery": [
@@ -1546,7 +1657,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2025",
-            "capacity": "6200"
+            "capacity": "6200",
+            "sourceUrl": "https://eplanning.blm.gov/eplanning-ui/project/2020804/510"
           },
           {
             "title": "Pyramid Lake Pumped Storage Project (Lyon, Storey, and Washoe Counties)",
@@ -1562,7 +1674,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "2000"
+            "capacity": "2000",
+            "sourceUrl": "https://www.westernwaternotes.com/p/pyramid-lake-paiute-tribe-opposes"
           }
         ]
       },
@@ -1600,7 +1713,8 @@
             ],
             "status": "Operational",
             "cancelled": "",
-            "capacity": "200"
+            "capacity": "200",
+            "sourceUrl": "https://www.enelgreenpower.com/our-projects/under-construction/alta-farms-wind-project"
           },
           {
             "title": "Ford Ridge Wind Farm (Ford County)",
@@ -1612,7 +1726,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://www.wcia.com/news/wind-farm-building-permit-approved-in-ford-county/."
           },
           {
             "title": "Goose Creek Wind Project / Prosperity Wind Farm (Piatt County)",
@@ -1624,7 +1739,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "300"
+            "capacity": "300",
+            "sourceUrl": "https://illinoisnewsroom.org/in-piatt-county-a-zoning-board-votes-against-a-wind-farm-but-the-county-board-will-have-the-final-say/"
           },
           {
             "title": "Harvest Ridge Wind Farm (Douglas County)",
@@ -1636,7 +1752,8 @@
             ],
             "status": "Operational",
             "cancelled": "",
-            "capacity": "200"
+            "capacity": "200",
+            "sourceUrl": "https://www.globenewswire.com/en/news-release/2020/07/30/2070471/0/en/Harvest-Ridge-Wind-Farm-is-Generating-Clean-Energy-in-Douglas-County.html."
           },
           {
             "title": "HillTopper Wind Farm (Logan County)",
@@ -1648,7 +1765,8 @@
             ],
             "status": "Operational",
             "cancelled": "",
-            "capacity": "200"
+            "capacity": "200",
+            "sourceUrl": "https://www.wind-watch.org/news/2015/01/23/7600-acre-wind-farm-petition-falls-flat-in-logan-county/"
           },
           {
             "title": "Niyol Wind Farm (Logan County)",
@@ -1660,7 +1778,8 @@
             ],
             "status": "Operational",
             "cancelled": "",
-            "capacity": "200"
+            "capacity": "200",
+            "sourceUrl": "https://www.journal-advocate.com/2021/11/04/nextera-tri-state-cut-the-ribbon-on-niyol-wind-farm/."
           },
           {
             "title": "Pleasant Ridge Wind Farm (Livingston County)",
@@ -1672,7 +1791,8 @@
             ],
             "status": "Canceled",
             "cancelled": "",
-            "capacity": "250"
+            "capacity": "250",
+            "sourceUrl": "https://www.wjbc.com/2015/07/17/livingston-county-rejects-wind-farm/"
           },
           {
             "title": "Top Hat Wind Project (Logan County)",
@@ -1684,7 +1804,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "200"
+            "capacity": "200",
+            "sourceUrl": "https://www.wandtv.com/news/lawsuit-possible-in-wind-farm-controversy/article_51f6cc7a-66c0-11ed-b1f0-23f9e1111d03.html"
           }
         ],
         "solar": [
@@ -1698,7 +1819,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2023",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://www.wqad.com/article/news/local/community-members-frustrated-mercer-county-solar-farm-proposal/526-fa76dae9-3d11-4e7a-a233-a3db5f77c75b"
           },
           {
             "title": "Amp Solar’s Pratt Road Solar Garden (Dekalb County)",
@@ -1710,7 +1832,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "5"
+            "capacity": "5",
+            "sourceUrl": "https://www.shawlocal.com/kendall-county-now/2023/05/03/sandwich-city-council-voices-opposition-to-proposed-solar-farm-along-pratt-road/"
           },
           {
             "title": "Bundleflower Solar LLC (Livingston County)",
@@ -1722,7 +1845,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2023",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://www.cfact.org/2023/03/11/illinois-town-nixes-solar-desert/"
           },
           {
             "title": "Indigo Solar Project (Winnebago County)",
@@ -1734,7 +1858,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2024",
-            "capacity": "5"
+            "capacity": "5",
+            "sourceUrl": "https://www.rrstar.com/story/news/local/2024/08/14/rockford-city-council-plans-to-file-objection-to-proposed-solar-farm/74786370007/."
           },
           {
             "title": "Princeton Technology Park Solar Array (Buerau County)",
@@ -1746,7 +1871,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://www.shawlocal.com/bureau-county-republican/news/government/2023/01/17/princeton-council-tables-solar-array-resolution-citing-location-and-expansion-concerns/"
           },
           {
             "title": "SolarStone Partners Solar Farm (Tazewell County)",
@@ -1758,7 +1884,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2023",
-            "capacity": ""
+            "capacity": "",
+            "sourceUrl": "https://www.centralillinoisproud.com/news/local-news/no-solar-farm-coming-to-tazewell-county/"
           },
           {
             "title": "Will County Solar Farm (Will County)",
@@ -1770,7 +1897,8 @@
             ],
             "status": "Canceled",
             "cancelled": "2024",
-            "capacity": "300"
+            "capacity": "300",
+            "sourceUrl": "http://freepressnewspapers.com/content/custer-solar-project-voted-down-will-county-land-use"
           },
           {
             "title": "New Lenox Township Solar Project (Will County)",
@@ -1782,7 +1910,8 @@
             ],
             "status": "Canceled",
             "cancelled": "",
-            "capacity": "10"
+            "capacity": "10",
+            "sourceUrl": "https://www.chicagotribune.com/2025/05/15/new-lenox-solar-farm-rejected/</span><span"
           },
           {
             "title": "Belvidere Solar (Boone County)",
@@ -1794,7 +1923,8 @@
             ],
             "status": "Pending",
             "cancelled": "",
-            "capacity": "25.2"
+            "capacity": "25.2",
+            "sourceUrl": "https://citizenportal.ai/articles/6147297/Boone-County/Illinois/Board-OKs-252-MW-Belvedere-Solar-project-after-company-offers-additional-community-benefits"
           }
         ],
         "battery": []

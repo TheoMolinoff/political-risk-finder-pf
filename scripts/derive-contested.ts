@@ -58,6 +58,7 @@ type Project = {
   status: string;
   cancelled: string;
   capacity: string;
+  sourceUrl: string;
 };
 
 function main() {
@@ -73,6 +74,7 @@ function main() {
   const iFips = col('County ID');
   const iType = col('Type');
   const iCapacity = col('Capacity');
+  const iCitations = col('Citations');
 
   const data: Record<StateCode, Record<Tech, Project[]>> = Object.fromEntries(
     STATES.map((s) => [s, { wind: [], solar: [], battery: [] }])
@@ -96,6 +98,10 @@ function main() {
       status: row[iStatus].trim(),
       cancelled: (row[iCancelled] ?? '').trim(),
       capacity: (row[iCapacity] ?? '').trim(),
+      sourceUrl: (() => {
+        const m = (row[iCitations] ?? '').match(/https?:\/\/[^\s;,]+/);
+        return m ? m[0] : '';
+      })(),
     };
     for (const tech of techs) data[st][tech].push(project);
   }
