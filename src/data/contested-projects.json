@@ -317,7 +317,7 @@
             "status": "Canceled",
             "cancelled": "2024",
             "capacity": "105",
-            "sourceUrl": "https://www.thenewsprogress.com/news/article_a4ae1e12-2a37-11ec-96a0-ffb4878929ec.html"
+            "sourceUrl": "https://web.archive.org/web/20211105220616/https://www.thenewsprogress.com/news/article_a4ae1e12-2a37-11ec-96a0-ffb4878929ec.html"
           },
           {
             "title": "Antlers Road Solar Farm (Mecklenburg County)",
@@ -343,7 +343,7 @@
             "status": "Canceled",
             "cancelled": "2023",
             "capacity": "",
-            "sourceUrl": "https://martinsvillebulletin.com/news/local/govt-and-politics/board-of-zoning-appeals-denies-two-solar-farm-requests-in-axton/article_764ee4c0-4e31-11ec-a948-3fa623aCcb601.html"
+            "sourceUrl": ""
           },
           {
             "title": "Bakers Pond Solar Farm (Prince George County)",
@@ -499,7 +499,7 @@
             "status": "Canceled",
             "cancelled": "2021",
             "capacity": "80",
-            "sourceUrl": "https://www.thedinwiddiemonitor.com/news/dinwiddie-rejects-solar-project-agreement/article_d7409a8e-3825-11ec-8133-6fdf2e2bed7f.html"
+            "sourceUrl": "https://web.archive.org/web/20240207204121/https://www.thedinwiddiemonitor.com/news/dinwiddie-rejects-solar-project-agreement/article_d7409a8e-3825-11ec-8133-6fdf2e2bed7f.html"
           },
           {
             "title": "Lone Oak Agrisolar Project (Mecklenburg County)",
@@ -538,7 +538,7 @@
             "status": "Canceled",
             "cancelled": "2022",
             "capacity": "123",
-            "sourceUrl": "https://www.emporiaindependentmessenger.com/news/article_63a5fd42-1413-11ed-949f-c79cf9166f59.html"
+            "sourceUrl": ""
           },
           {
             "title": "Mountain Pine Arvonia I and II (Buckingham County)",
@@ -655,7 +655,7 @@
             "status": "Pending",
             "cancelled": "",
             "capacity": "90",
-            "sourceUrl": "https://martinsvillebulletin.com/news/local/govt-and-politics/board-of-zoning-appeals-denies-two-solar-farm-requests-in-axton/article_764ee4c0-4e31-11ec-a948-3fa623aCcb601.html"
+            "sourceUrl": ""
           },
           {
             "title": "South Boston Solar G Development (Halifax County)",
@@ -746,7 +746,7 @@
             "status": "Canceled",
             "cancelled": "2025",
             "capacity": "90",
-            "sourceUrl": "https://www.rappnews.com/news/landuse/fauquier-planners-reject-utility-scale-solar-project/article_a60554e2-b21e-541d-90c1-7fd87f99345e.html"
+            "sourceUrl": "https://web.archive.org/web/20250410001935/https://www.rappnews.com/news/landuse/fauquier-planners-reject-utility-scale-solar-project/article_a60554e2-b21e-541d-90c1-7fd87f99345e.html"
           },
           {
             "title": "Deltaville Solar (Middlesex County)",
@@ -884,7 +884,7 @@
             "status": "Pending",
             "cancelled": "",
             "capacity": "200",
-            "sourceUrl": "https://www.redding.com/story/news/local/2025/12/20/california-energy-commission-denies-shasta-county-fountain-wind-farm/87853324007/"
+            "sourceUrl": ""
           },
           {
             "title": "Granite Mountain Wind Energy Project (San Bernardino County)",
@@ -1591,7 +1591,7 @@
             "status": "Canceled",
             "cancelled": "2025",
             "capacity": "6200",
-            "sourceUrl": "https://eplanning.blm.gov/eplanning-ui/project/2020804/510"
+            "sourceUrl": ""
           },
           {
             "title": "Rough Hat Clark Solar Project (Clark County)",
@@ -1658,7 +1658,7 @@
             "status": "Canceled",
             "cancelled": "2025",
             "capacity": "6200",
-            "sourceUrl": "https://eplanning.blm.gov/eplanning-ui/project/2020804/510"
+            "sourceUrl": ""
           },
           {
             "title": "Pyramid Lake Pumped Storage Project (Lyon, Storey, and Washoe Counties)",
@@ -1675,7 +1675,7 @@
             "status": "Pending",
             "cancelled": "",
             "capacity": "2000",
-            "sourceUrl": "https://www.westernwaternotes.com/p/pyramid-lake-paiute-tribe-opposes"
+            "sourceUrl": ""
           }
         ]
       },

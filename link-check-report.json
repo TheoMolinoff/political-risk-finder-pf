@@ -1,78 +1,12 @@
 {
-  "generatedAt": "2026-06-09T21:31:40.170Z",
+  "generatedAt": "2026-06-09T21:44:43.750Z",
   "summary": {
-    "total": 146,
-    "ok": 126,
-    "dead": 8,
+    "total": 141,
+    "ok": 129,
+    "dead": 0,
     "suspicious": 12
   },
   "results": [
-    {
-      "url": "https://www.thenewsprogress.com/news/article_a4ae1e12-2a37-11ec-96a0-ffb4878929ec.html",
-      "status": null,
-      "category": "dead",
-      "usedBy": [
-        "contested:VA/solar/7 Bridges Solar Project (Mecklenburg County)"
-      ]
-    },
-    {
-      "url": "https://martinsvillebulletin.com/news/local/govt-and-politics/board-of-zoning-appeals-denies-two-solar-farm-requests-in-axton/article_764ee4c0-4e31-11ec-a948-3fa623aCcb601.html",
-      "status": null,
-      "category": "dead",
-      "usedBy": [
-        "contested:VA/solar/Axton Solar Project (Henry County)",
-        "contested:VA/solar/Rocky Ford Solar Energy Project (Henry County)"
-      ]
-    },
-    {
-      "url": "https://www.thedinwiddiemonitor.com/news/dinwiddie-rejects-solar-project-agreement/article_d7409a8e-3825-11ec-8133-6fdf2e2bed7f.html",
-      "status": null,
-      "category": "dead",
-      "usedBy": [
-        "contested:VA/solar/Lily Pond Solar (Dinwiddie County)"
-      ]
-    },
-    {
-      "url": "https://www.emporiaindependentmessenger.com/news/article_63a5fd42-1413-11ed-949f-c79cf9166f59.html",
-      "status": 404,
-      "category": "dead",
-      "usedBy": [
-        "contested:VA/solar/Monarch Solar Project (Greensville County)"
-      ]
-    },
-    {
-      "url": "https://www.rappnews.com/news/landuse/fauquier-planners-reject-utility-scale-solar-project/article_a60554e2-b21e-541d-90c1-7fd87f99345e.html",
-      "status": 404,
-      "category": "dead",
-      "usedBy": [
-        "contested:VA/solar/Almeda Solar Grazing Center (Fauquier County)"
-      ]
-    },
-    {
-      "url": "https://www.redding.com/story/news/local/2025/12/20/california-energy-commission-denies-shasta-county-fountain-wind-farm/87853324007/",
-      "status": null,
-      "category": "dead",
-      "usedBy": [
-        "contested:CA/wind/Fountain Wind Project (Shasta County)"
-      ]
-    },
-    {
-      "url": "https://eplanning.blm.gov/eplanning-ui/project/2020804/510",
-      "status": 404,
-      "category": "dead",
-      "usedBy": [
-        "contested:NV/solar/Esmeralda Seven Solar Project (Esmeralda County)",
-        "contested:NV/battery/Esmeralda Seven Solar Project (Esmeralda County)"
-      ]
-    },
-    {
-      "url": "https://www.westernwaternotes.com/p/pyramid-lake-paiute-tribe-opposes",
-      "status": null,
-      "category": "dead",
-      "usedBy": [
-        "contested:NV/battery/Pyramid Lake Pumped Storage Project (Lyon, Storey, and Washoe Counties)"
-      ]
-    },
     {
       "url": "https://law.lis.virginia.gov/vacode/title56/chapter23/section56-585.1/",
       "status": 200,
@@ -396,6 +330,14 @@
       ]
     },
     {
+      "url": "https://web.archive.org/web/20211105220616/https://www.thenewsprogress.com/news/article_a4ae1e12-2a37-11ec-96a0-ffb4878929ec.html",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/solar/7 Bridges Solar Project (Mecklenburg County)"
+      ]
+    },
+    {
       "url": "https://virginiabusiness.com/mecklenburg-ends-future-solar-projects/",
       "status": 200,
       "category": "ok",
@@ -481,6 +423,14 @@
       "category": "ok",
       "usedBy": [
         "contested:VA/solar/James City County Solar Project (James City County)"
+      ]
+    },
+    {
+      "url": "https://web.archive.org/web/20240207204121/https://www.thedinwiddiemonitor.com/news/dinwiddie-rejects-solar-project-agreement/article_d7409a8e-3825-11ec-8133-6fdf2e2bed7f.html",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/solar/Lily Pond Solar (Dinwiddie County)"
       ]
     },
     {
@@ -594,6 +544,14 @@
       "usedBy": [
         "contested:VA/solar/Gabriel Solar Project (Prince Edward County)",
         "contested:VA/battery/Gabriel Solar Project (Prince Edward County)"
+      ]
+    },
+    {
+      "url": "https://web.archive.org/web/20250410001935/https://www.rappnews.com/news/landuse/fauquier-planners-reject-utility-scale-solar-project/article_a60554e2-b21e-541d-90c1-7fd87f99345e.html",
+      "status": 200,
+      "category": "ok",
+      "usedBy": [
+        "contested:VA/solar/Almeda Solar Grazing Center (Fauquier County)"
       ]
     },
     {
