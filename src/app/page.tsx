@@ -23,6 +23,7 @@ const LEVEL_STYLES: Record<RiskLevel, { border: string; text: string; bg: string
 export default function Home() {
   const [selectedStateCode, setSelectedStateCode] = useState<string>('TX');
   const [selectedTech, setSelectedTech] = useState<Technology | null>(null);
+  const [resultView, setResultView] = useState<'assessment' | 'map'>('assessment');
 
   const stateRecord = STATES.find((s) => s.code === selectedStateCode);
   const result = stateRecord && selectedTech ? assess(stateRecord, selectedTech) : null;
@@ -82,7 +83,10 @@ export default function Home() {
               {TECHNOLOGIES.map(({ id, label }) => (
                 <button
                   key={id}
-                  onClick={() => setSelectedTech(selectedTech === id ? null : id)}
+                  onClick={() => {
+                    setSelectedTech(selectedTech === id ? null : id);
+                    setResultView('assessment');
+                  }}
                   className={`rounded-md border px-4 py-2 text-sm font-medium transition-colors ${
                     selectedTech === id
                       ? 'border-slate-700 bg-slate-800 text-white'
@@ -123,19 +127,38 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Tier cards */}
-            <div className="flex flex-col gap-4">
-              {result.tiers.map((tier) => (
-                <TierCard key={tier.tier} result={tier} tech={result.technology} />
+            {/* Assessment / Map tabs */}
+            <div className="mb-5 flex gap-2 border-b border-slate-200">
+              {(['assessment', 'map'] as const).map((v) => (
+                <button
+                  key={v}
+                  onClick={() => setResultView(v)}
+                  className={`-mb-px border-b-2 px-4 py-2 text-sm font-medium capitalize transition-colors ${
+                    resultView === v
+                      ? 'border-slate-800 text-slate-800'
+                      : 'border-transparent text-slate-400 hover:text-slate-600'
+                  }`}
+                >
+                  {v === 'assessment' ? 'Assessment' : 'Map'}
+                </button>
               ))}
             </div>
 
-            <div className="mt-8 border-t border-slate-200 pt-6">
-              <h2 className="mb-1 text-sm font-semibold uppercase tracking-wide text-slate-500">
-                Contested {result.technology} projects — {stateRecord.name}
-              </h2>
-              <USCountyMap stateCode={selectedStateCode} tech={result.technology} />
-            </div>
+            {resultView === 'assessment' ? (
+              /* Tier cards */
+              <div className="flex flex-col gap-4">
+                {result.tiers.map((tier) => (
+                  <TierCard key={tier.tier} result={tier} tech={result.technology} />
+                ))}
+              </div>
+            ) : (
+              <div>
+                <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-slate-500">
+                  Contested {result.technology} projects — {stateRecord.name}
+                </h2>
+                <USCountyMap stateCode={selectedStateCode} tech={result.technology} />
+              </div>
+            )}
           </section>
         ) : (
           /* Empty state */
