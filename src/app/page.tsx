@@ -127,6 +127,17 @@ export default function Home() {
               </div>
             </div>
 
+            <div className="mb-4">
+              <a
+                href={`/memo?state=${selectedStateCode}&tech=${result.technology}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 rounded-md border border-slate-300 bg-white px-3 py-1.5 text-sm font-medium text-slate-700 transition-colors hover:bg-slate-50"
+              >
+                Generate screening memo ↗
+              </a>
+            </div>
+
             {/* Assessment / Map tabs */}
             <div className="mb-5 flex gap-2 border-b border-slate-200">
               {(['assessment', 'map'] as const).map((v) => (
