@@ -1,11 +1,8 @@
 'use client';
-
 import { useState, useMemo } from 'react';
 import { ComposableMap, Geographies, Geography, ZoomableGroup } from 'react-simple-maps';
 import contested from '@/data/contested-projects.json';
-
 const COUNTY_GEO_URL = 'https://cdn.jsdelivr.net/npm/us-atlas@3/counties-10m.json';
-
 type Tech = 'wind' | 'solar' | 'battery';
 type Project = {
   title: string;
@@ -16,7 +13,6 @@ type Project = {
   capacity: string;
   sourceUrl: string;
 };
-
 const STATE_VIEW: Record<string, { fips: string; center: [number, number]; zoom: number }> = {
   TX: { fips: '48', center: [-99.4, 31.3], zoom: 3.2 },
   VA: { fips: '51', center: [-78.7, 37.8], zoom: 4.6 },
@@ -27,7 +23,6 @@ const STATE_VIEW: Record<string, { fips: string; center: [number, number]; zoom:
   NV: { fips: '32', center: [-116.6, 39.3], zoom: 3.6 },
   IL: { fips: '17', center: [-89.2, 40.0], zoom: 4.2 },
 };
-
 // Worst-outcome color for a county given its projects.
 function countyColor(projects: Project[]): string {
   if (projects.length === 0) return '#e2e8f0'; // grey — no contested projects
@@ -35,7 +30,6 @@ function countyColor(projects: Project[]): string {
   if (projects.some((p) => p.status === 'Pending')) return '#f59e0b'; // amber — active/unresolved
   return '#94a3b8'; // slate — operational/unknown (contested but resolved)
 }
-
 const STATUS_STYLE: Record<string, string> = {
   Canceled: 'text-red-700',
   Pending: 'text-amber-600',
@@ -61,6 +55,22 @@ export function USCountyMap({ stateCode = 'TX', tech = 'solar' as Tech }: { stat
     return map;
   }, [projects]);
 
+  // County dropdown options: each FIPS that has >=1 contested project, with a label.
+  // (A project can span multiple counties; we pair each fips with its matching county name.)
+  const countyOptions = useMemo(() => {
+    const opts: { fips: string; name: string }[] = [];
+    const seen = new Set<string>();
+    for (const p of projects) {
+      p.fips.forEach((fp, idx) => {
+        if (!seen.has(fp)) {
+          seen.add(fp);
+          opts.push({ fips: fp, name: p.counties[idx] ?? p.counties[0] ?? fp });
+        }
+      });
+    }
+    return opts.sort((a, b) => a.name.localeCompare(b.name));
+  }, [projects]);
+
   // Reset the selected county when state/tech changes (so a stale county doesn't linger).
   const viewKey = `${stateCode}-${tech}`;
   const [lastViewKey, setLastViewKey] = useState(viewKey);
@@ -71,6 +81,7 @@ export function USCountyMap({ stateCode = 'TX', tech = 'solar' as Tech }: { stat
 
   if (!view) return null;
 
+  const isFiltered = activeFips !== null;
   const activeProjects = activeFips ? projectsByFips[activeFips] ?? [] : [];
 
   return (
@@ -78,8 +89,35 @@ export function USCountyMap({ stateCode = 'TX', tech = 'solar' as Tech }: { stat
       <p className="mb-2 text-sm text-slate-600">
         {projects.length === 0
           ? `No contested ${tech} projects on record — consistent with low siting risk (Sabin Center, data through 2024)`
-          : `${projects.length} contested ${tech} project${projects.length === 1 ? '' : 's'} on record (Sabin Center, data through 2024). Click a highlighted county for details.`}
+          : `${projects.length} contested ${tech} project${projects.length === 1 ? '' : 's'} on record (Sabin Center, data through 2024). Select or click a county to focus.`}
       </p>
+
+      {/* County selector */}
+      {projects.length > 0 && (
+        <div className="mb-3 flex items-center gap-2">
+          <label className="text-xs font-medium uppercase tracking-wide text-slate-500">County</label>
+          <select
+            value={activeFips ?? ''}
+            onChange={(e) => setActiveFips(e.target.value || null)}
+            className="rounded border border-slate-300 bg-white px-2 py-1 text-sm text-slate-700"
+          >
+            <option value="">All counties ({countyOptions.length})</option>
+            {countyOptions.map((c) => (
+              <option key={c.fips} value={c.fips}>
+                {c.name}
+              </option>
+            ))}
+          </select>
+          {isFiltered && (
+            <button
+              onClick={() => setActiveFips(null)}
+              className="text-xs text-slate-400 underline hover:text-slate-600"
+            >
+              clear
+            </button>
+          )}
+        </div>
+      )}
 
       {/* Legend */}
       <div className="mb-3 flex flex-wrap items-center gap-4 text-xs text-slate-500">
@@ -100,6 +138,8 @@ export function USCountyMap({ stateCode = 'TX', tech = 'solar' as Tech }: { stat
                       const fips = String(geo.id);
                       const countyProjects = projectsByFips[fips] ?? [];
                       const isActive = fips === activeFips;
+                      // When a county is selected, dim all others.
+                      const dimmed = isFiltered && !isActive;
                       return (
                         <Geography
                           key={geo.rsmKey}
@@ -107,13 +147,13 @@ export function USCountyMap({ stateCode = 'TX', tech = 'solar' as Tech }: { stat
                           onClick={() => countyProjects.length > 0 && setActiveFips(fips)}
                           fill={countyColor(countyProjects)}
                           stroke={isActive ? '#0f172a' : '#ffffff'}
-                          strokeWidth={isActive ? 1.2 : 0.4}
+                          strokeWidth={isActive ? 1.4 : 0.4}
                           style={{
-                            default: { outline: 'none' },
+                            default: { outline: 'none', opacity: dimmed ? 0.25 : 1 },
                             hover: {
                               outline: 'none',
                               cursor: countyProjects.length > 0 ? 'pointer' : 'default',
-                              opacity: countyProjects.length > 0 ? 0.8 : 1,
+                              opacity: dimmed ? 0.4 : 0.8,
                             },
                             pressed: { outline: 'none' },
                           }}
@@ -130,7 +170,7 @@ export function USCountyMap({ stateCode = 'TX', tech = 'solar' as Tech }: { stat
         <div className="rounded-lg border border-slate-200 bg-slate-50 p-3 text-sm">
           {activeProjects.length === 0 ? (
             <p className="text-slate-400">
-              {projects.length === 0 ? 'No projects to display.' : 'Click a highlighted county to see its contested projects.'}
+              {projects.length === 0 ? 'No projects to display.' : 'Select a county above (or click one on the map) to see its contested projects.'}
             </p>
           ) : (
             <div>
